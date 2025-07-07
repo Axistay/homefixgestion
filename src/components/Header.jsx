@@ -24,11 +24,11 @@ function Header({ onWhatsAppClick, onCallClick }) {
   const isActive = (path) => location.pathname === path
 
   return (
-    <header className={`fixed right-0 left-0 top-0 z-50 transition-all duration-300 max-h-[70px] ${(scrolled || isMenuOpen) ? "bg-yellow-400 shadow-lg" : "bg-transparent"}`}>
+    <header className={`fixed right-0 left-0 top-0 z-50 transition-all duration-300 max-h-[70px] ${((scrolled || isMenuOpen ) || location.pathname !== '/') ? "bg-yellow-400 shadow-lg" : "bg-transparent"}`}>
       <div className="container mx-auto px-3 sm:px-4 lg:px-6 h-full">
         <div className={`flex justify-between items-center h-full min-h-[70px] gap-2 sm:gap-4`}>
           {/* Logo */}
-          <Link to="/" className={`flex items-center space-x-2 sm:space-x-3 flex-shrink-0 ${isRTL ? "space-x-reverse" : ""}`}>
+          <Link to="/" className={`flex items-center space-x-2 sm:space-x-3 flex-shrink-0 `}  dir="ltr">
             <div className="relative">
               <img 
                 src={logo}
@@ -47,7 +47,7 @@ function Header({ onWhatsAppClick, onCallClick }) {
           </Link>
 
           {/* Desktop Navigation - Hidden on mobile and tablet */}
-          <nav className={`hidden lg:flex items-center space-x-4 xl:space-x-6 ${isRTL ? "space-x-reverse" : ""}`}>
+          <nav className={`hidden lg:flex items-center  gap-4 ${isRTL ? "space-x-reverse" : ""}`}>
             <Link
               to="/"
               className={`relative text-gray-700 hover:text-blue-600 transition-all duration-300 font-medium text-sm xl:text-base whitespace-nowrap px-2 py-1 rounded-lg hover:bg-yellow-300 ${
