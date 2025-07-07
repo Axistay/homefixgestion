@@ -9,33 +9,33 @@ function AboutPage() {
   const features = [
     {
       icon: <FaUsers className="text-4xl text-blue-600" />,
-      title: "Expert Team",
-      description: "Licensed and certified professionals with years of experience",
+      title: t("about.features.expert"),
+      description: t("about.features.expertDesc"),
     },
     {
       icon: <FaAward className="text-4xl text-yellow-500" />,
-      title: "Quality Guarantee",
-      description: "100% satisfaction guarantee on all our work",
+      title: t("about.features.quality"),
+      description: t("about.features.qualityDesc"),
     },
     {
       icon: <FaTools className="text-4xl text-green-600" />,
-      title: "Modern Equipment",
-      description: "State-of-the-art tools and techniques for best results",
+      title: t("about.features.equipment"),
+      description: t("about.features.equipmentDesc"),
     },
     {
       icon: <FaHeart className="text-4xl text-red-500" />,
-      title: "Customer Care",
-      description: "Dedicated support and personalized service",
+      title: t("about.features.care"),
+      description: t("about.features.careDesc"),
     },
     {
       icon: <FaShieldAlt className="text-4xl text-purple-600" />,
-      title: "Fully Insured",
-      description: "Complete insurance coverage for your peace of mind",
+      title: t("about.features.insured"),
+      description: t("about.features.insuredDesc"),
     },
     {
       icon: <FaClock className="text-4xl text-orange-600" />,
-      title: "24/7 Emergency",
-      description: "Round-the-clock emergency repair services",
+      title: t("about.features.emergency"),
+      description: t("about.features.emergencyDesc"),
     },
   ]
 
@@ -46,49 +46,44 @@ function AboutPage() {
           {/* Header */}
           <div className={`text-center mb-16 ${isRTL ? "rtl" : ""}`}>
             <h1 className="text-5xl md:text-6xl font-bold text-gray-800 mb-6">
-              About <span className="text-blue-600">RepairPro</span>
+              {t("about.title")} <span className="text-blue-600">Homefix Gestion</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Your trusted partner for professional home repair services since 2009
+              {t("about.subtitle")}
             </p>
           </div>
 
           {/* Story Section */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20">
             <div className={isRTL ? "text-right" : "text-left"}>
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Story</h2>
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">{t("about.storyTitle")}</h2>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                Founded in 2009, RepairPro has been serving the community with reliable, professional home repair
-                services. What started as a small family business has grown into a trusted name in home maintenance and
-                renovation.
+                {t("about.story1")}
               </p>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                We believe that every home deserves quality care, and every customer deserves honest, transparent
-                service. Our team of licensed professionals is committed to delivering exceptional results on every
-                project.
+                {t("about.story2")}
               </p>
               <p className="text-gray-600 leading-relaxed">
-                From emergency repairs to complete renovations, we approach every job with the same dedication to
-                quality and customer satisfaction that has made us the preferred choice for thousands of homeowners.
+                {t("about.story3")}
               </p>
             </div>
             <div className="bg-gradient-to-br from-blue-50 to-green-50 rounded-2xl p-8">
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-blue-600 mb-2">15+</div>
-                  <div className="text-gray-600">Years Experience</div>
+                  <div className="text-gray-600">{t("about.stats.experience")}</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-green-600 mb-2">5000+</div>
-                  <div className="text-gray-600">Happy Customers</div>
+                  <div className="text-gray-600">{t("about.stats.customers")}</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-yellow-600 mb-2">15000+</div>
-                  <div className="text-gray-600">Jobs Completed</div>
+                  <div className="text-gray-600">{t("about.stats.jobs")}</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-purple-600 mb-2">4.9</div>
-                  <div className="text-gray-600">Average Rating</div>
+                  <div className="text-gray-600">{t("about.stats.rating")}</div>
                 </div>
               </div>
             </div>
@@ -110,11 +105,9 @@ function AboutPage() {
 
           {/* Mission Section */}
           <div className="bg-gradient-to-br from-gray-50 to-blue-50 rounded-3xl p-12 text-center">
-            <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Mission</h2>
+            <h2 className="text-3xl font-bold text-gray-800 mb-6">{t("about.missionTitle")}</h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              To provide exceptional home repair services that exceed customer expectations while building lasting
-              relationships based on trust, quality, and reliability. We're not just fixing homes – we're helping
-              families create safe, comfortable spaces they can enjoy for years to come.
+              {t("about.missionText")}
             </p>
           </div>
         </div>

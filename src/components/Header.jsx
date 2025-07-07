@@ -84,7 +84,7 @@ function Header({ onWhatsAppClick, onCallClick }) {
           </nav>
 
           {/* Desktop Action Buttons - Hidden on mobile and tablet */}
-          <div className={`hidden lg:flex items-center space-x-2 xl:space-x-3 flex-shrink-0 ${isRTL ? "space-x-reverse" : ""}`}>
+          <div className={`hidden lg:flex items-center gap-2 space-x-2 xl:space-x-3 flex-shrink-0}`}>
             <button
               onClick={onCallClick}
               className={`flex items-center space-x-2 bg-blue-600 text-white px-3 py-2 xl:px-4 xl:py-2 rounded-lg hover:bg-blue-700 transition-all duration-300 hover:scale-105 text-xs xl:text-sm font-medium whitespace-nowrap shadow-md ${isRTL ? "space-x-reverse" : ""}`}

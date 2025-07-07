@@ -79,7 +79,7 @@ function Footer({ onWhatsAppClick, onSocialMediaClick }) {
                 className={`flex items-center space-x-3 hover:text-blue-400 transition-colors duration-300 ${isRTL ? "space-x-reverse flex-row-reverse" : ""}`}
               >
                 <FaPhone className="text-blue-400 text-xl" />
-                <span className="text-gray-300 text-lg">(123) 456-7890</span>
+                <span className="text-gray-300 text-lg">(0684679961)</span>
               </div>
               <button
                 onClick={onWhatsAppClick}

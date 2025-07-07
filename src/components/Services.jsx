@@ -315,7 +315,7 @@ function Services({ onWhatsAppClick }) {
                   {services[selectedService].features.map((feature, index) => (
                     <div
                       key={index}
-                      className={`flex items-center space-x-3 p-4 bg-gradient-to-r from-gray-50 to-blue-50 rounded-xl border border-gray-100 hover:shadow-md transition-shadow duration-300 ${isRTL ? "space-x-reverse flex-row-reverse" : ""}`}
+                      className={`flex items-center space-x-3 p-4 bg-gradient-to-r from-gray-50 to-blue-50 rounded-xl border border-gray-100 hover:shadow-md transition-shadow duration-300  gap-2`}
                     >
                       <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0">
                         <FaCheckCircle className="text-white text-sm" />

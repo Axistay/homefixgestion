@@ -11,7 +11,7 @@ function Layout({ children }) {
   const [showWhatsAppModal, setShowWhatsAppModal] = useState(false)
   const [whatsappMessage, setWhatsappMessage] = useState("Hi! I'm interested in your home repair services.")
 
-  const phoneNumber = "1234567890" // Replace with actual phone number
+  const phoneNumber = "0684679961" // Updated WhatsApp number
 
   const openWhatsAppModal = (message = "Hi! I'm interested in your home repair services.") => {
     setWhatsappMessage(message)
@@ -20,7 +20,7 @@ function Layout({ children }) {
 
   const openWhatsApp = (message) => {
     const encodedMessage = encodeURIComponent(message)
-    window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, "_blank")
+    window.open(`https://wa.me/212${phoneNumber.slice(1)}?text=${encodedMessage}`, "_blank")
   }
 
   const openSocialMedia = (platform) => {
@@ -33,7 +33,7 @@ function Layout({ children }) {
   }
 
   const makeCall = () => {
-    window.open(`tel:+${phoneNumber}`, "_self")
+    window.open(`tel:${phoneNumber}`, "_self")
   }
 
   return (
