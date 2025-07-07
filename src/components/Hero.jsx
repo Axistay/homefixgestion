@@ -32,7 +32,7 @@ function Hero({ onWhatsAppClick, onCallClick }) {
         ></div>
       </div>
 
-      <div className="container mx-auto px-4 relative z-10 mt-32">
+      <div className="container mx-auto px-4 relative z-10 mt-20 md:mt-36">
         <div className={`text-center max-w-5xl mx-auto  `}>
           {/* Emergency Badge */}
           <div
