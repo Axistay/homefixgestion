@@ -143,7 +143,7 @@ function Header({ onWhatsAppClick, onCallClick }) {
         {/* Mobile & Tablet Navigation */}
         <nav
           className={`lg:hidden overflow-hidden transition-all duration-300 ease-in-out ${
-            isMenuOpen ? "max-h-96 pb-4 border-t border-yellow-500" : "max-h-0"
+            isMenuOpen ? "max-h-96 pb-4 border-t bg-yellow-500 border-yellow-500" : "max-h-0"
           }`}
         >
           <div className="flex flex-col space-y-3 pt-4 px-2">
