@@ -9,7 +9,7 @@ function Contact({ onWhatsAppClick, onCallClick, onSocialMediaClick }) {
     <section id="contact" className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
       <div className="container mx-auto px-4">
         {/* Header */}
-        <div className={`text-center mb-20 ${isRTL ? "rtl" : ""}`}>
+        <div className={`text-center mb-20  `}>
           <h2 className="text-5xl md:text-7xl font-bold text-gray-800 mb-8">{t("contact.title")}</h2>
           <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">{t("contact.subtitle")}</p>
         </div>
@@ -19,12 +19,12 @@ function Contact({ onWhatsAppClick, onCallClick, onSocialMediaClick }) {
 
           {/* Contact Information */}
           <div className="bg-white rounded-3xl p-10 shadow-2xl mb-16">
-            <h3 className={`text-3xl font-bold text-gray-800 mb-10 text-center ${isRTL ? "rtl" : ""}`}>
+            <h3 className={`text-3xl font-bold text-gray-800 mb-10 text-center `}>
               {t("contact.contactInfo")}
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div
-                className={`flex items-center space-x-6 p-6 bg-gradient-to-br from-gray-50 to-blue-50 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 ${isRTL ? "space-x-reverse flex-row-reverse" : ""}`}
+                className={`flex items-center space-x-6 p-6 bg-gradient-to-br from-gray-50 to-blue-50 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 gap-4  `}
               >
                 <div className="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center">
                   <FaPhone className="text-blue-600 text-2xl" />
@@ -36,7 +36,7 @@ function Contact({ onWhatsAppClick, onCallClick, onSocialMediaClick }) {
               </div>
 
               <div
-                className={`flex items-center space-x-6 p-6 bg-gradient-to-br from-gray-50 to-blue-50 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 ${isRTL ? "space-x-reverse flex-row-reverse" : ""}`}
+                className={`flex items-center space-x-6 p-6 bg-gradient-to-br from-gray-50 to-blue-50 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 gap-4`}
               >
                 <div className="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center">
                   <FaMapMarkerAlt className="text-green-600 text-2xl" />
@@ -48,7 +48,7 @@ function Contact({ onWhatsAppClick, onCallClick, onSocialMediaClick }) {
               </div>
 
               <div
-                className={`flex items-center space-x-6 p-6 bg-gradient-to-br from-gray-50 to-blue-50 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 ${isRTL ? "space-x-reverse flex-row-reverse" : ""}`}
+                className={`flex items-center space-x-6 p-6 bg-gradient-to-br from-gray-50 to-blue-50 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 gap-4  `}
               >
                 <div className="w-16 h-16 bg-orange-100 rounded-2xl flex items-center justify-center">
                   <FaClock className="text-orange-600 text-2xl" />
@@ -63,7 +63,7 @@ function Contact({ onWhatsAppClick, onCallClick, onSocialMediaClick }) {
 
           {/* Social Media */}
           <div className="bg-white rounded-3xl p-10 shadow-2xl">
-            <h3 className={`text-3xl font-bold text-gray-800 mb-10 text-center ${isRTL ? "rtl" : ""}`}>
+            <h3 className={`text-3xl font-bold text-gray-800 mb-10 text-center  `}>
               {t("contact.followSocial")}
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

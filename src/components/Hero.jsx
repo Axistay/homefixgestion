@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react"
 import { FaClock, FaPhone, FaWhatsapp, FaMapMarkerAlt, FaUsers, FaTools, FaAward, FaStar } from "react-icons/fa"
 import { useLanguage } from "../hooks/useLanguage.jsx"
+import logo from "../../public/logo.png"
 
 function Hero({ onWhatsAppClick, onCallClick }) {
   const [isVisible, setIsVisible] = useState(false)
@@ -12,17 +13,10 @@ function Hero({ onWhatsAppClick, onCallClick }) {
     setIsVisible(true)
   }, [])
 
-  const stats = [
-    { icon: <FaUsers className="text-3xl text-blue-600" />, number: "5000+", label: t("stats.happyCustomers") },
-    { icon: <FaTools className="text-3xl text-green-600" />, number: "15000+", label: t("stats.jobsCompleted") },
-    { icon: <FaAward className="text-3xl text-yellow-500" />, number: "15+", label: t("stats.yearsExperience") },
-    { icon: <FaStar className="text-3xl text-orange-500" />, number: "4.9", label: t("stats.averageRating") },
-  ]
-
-  const serviceAreas = ["Downtown", "Suburbs", "Metro Area", "Industrial District"]
+ 
 
   return (
-    <section className="bg-gradient-to-br min-h-[100vh]  from-[#FFEB3B] via-blue-200 to-[#388E3C] py-20 relative overflow-hidden">
+    <section className="bg-gradient-to-br min-h-[100vh]  from-[#FFEB3B] via-blue-200 to-[#388E3C] py-20 relative overflow-hidden ">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden ">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-[#FFEB3B] rounded-full opacity-20 animate-pulse"></div>
@@ -32,7 +26,11 @@ function Hero({ onWhatsAppClick, onCallClick }) {
         ></div>
       </div>
 
-      <div className="container mx-auto px-4 relative z-10 mt-20 md:mt-36">
+      <div className="container mx-auto px-4 relative z-10 mt-10 md:mt-36">
+        <div className="absolute top-[44vh] lg:top-[32vh] flex justify-center items-center w-full ">
+      <img src={logo} alt=""  className="   opacity-80   h-full " />
+
+        </div>
         <div className={`text-center max-w-5xl mx-auto  `}>
           {/* Emergency Badge */}
           <div

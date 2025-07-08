@@ -1,1135 +1,1086 @@
 export const translations = {
-  en: {
-    nav: {
-      home: "Home",
-      services: "Services",
-      about: "About",
-      contact: "Contact",
-      whatsapp: "WhatsApp Us",
+  "en": {
+    "nav": {
+      "home": "Home",
+      "services": "Our Services",
+      "about": "About Us",
+      "contact": "Contact",
+      "whatsapp": "Chat on WhatsApp"
     },
-    hero: {
-      emergency: "24/7 Emergency Services Available",
-      title: "Your Trusted",
-      titleHighlight: "Home Repair",
-      titleEnd: "Experts",
-      subtitle:
-        "Professional, reliable, and affordable home repair services. From emergency fixes to complete renovations, we've got you covered with",
-      subtitleHighlight: "guaranteed satisfaction",
-      getQuote: "Get Free Quote on WhatsApp",
-      callNow: "Call Now - Emergency Line",
+    "hero": {
+      "emergency": "24/7 Fast Services in Nador",
+      "title": "Your Trusted",
+      "titleHighlight": "Cleaning",
+      "titleEnd": "Experts",
+      "subtitle": "Practical solutions for homes and businesses in Nador. Guaranteed results with",
+      "subtitleHighlight": "affordable prices for everyone",
+      "getQuote": "Get a Free Quote Now",
+      "callNow": "Emergency Call"
     },
-    services: {
-      title: "Our",
-      titleHighlight: "Professional",
-      titleEnd: "Services",
-      subtitle: "Expert cleaning and maintenance services with guaranteed quality and customer satisfaction.",
-      subtitleHighlight: "Licensed, insured, and trusted by thousands.",
-      apartmentCleaning: {
-        title: "Apartment Cleaning",
-        desc: "Full cleaning before/after move-in using professional-grade products",
-        features: [
-          "Professional-grade cleaning products",
-          "Before/after move-in cleaning",
-          "Deep cleaning of all rooms",
+    "services": {
+      "showall": "Show All Services",
+      "title": "Our",
+      "titleHighlight": "Reliable",
+      "titleEnd": "Services",
+      "subtitle": "Quality services with trained teams and years of experience in Nador",
+      "subtitleHighlight": "We use top-quality cleaning products",
+      "homeCleaning": {
+        "title": "Home Cleaning",
+        "desc": "Complete service for all types of apartments and villas in Nador",
+        "features": [
+          "Thorough room cleaning",
           "Kitchen and bathroom sanitization",
-          "Window and glass cleaning",
-          "Floor and carpet cleaning"
+          "Window and balcony cleaning",
+          "Post-construction cleanup",
+          "Flexible scheduling",
+          "Family-safe products",
+          "Budget-friendly prices"
         ],
-        whatsapp: "Hi! I need apartment cleaning services. Can you help?",
+        "whatsapp": "I need home cleaning in Nador"
       },
-      villaCleaning: {
-        title: "Villa Cleaning",
-        desc: "Deep indoor and outdoor cleaning of large villas",
-        features: [
-          "Complete indoor deep cleaning",
-          "Outdoor area maintenance",
-          "Garden and pool area cleaning",
-          "High-ceiling cleaning",
-          "Premium cleaning products",
-          "Flexible scheduling options"
-        ],
-        whatsapp: "Hi! I need villa cleaning services. Can you provide a quote?",
-      },
-      hotelCleaning: {
-        title: "Hotel Cleaning",
-        desc: "Daily or weekly contracts following hotel industry standards",
-        features: [
-          "Hotel industry standards",
-          "Daily or weekly contracts",
+      "hotelCleaning": {
+        "title": "Hotel Cleaning",
+        "desc": "Daily services that maintain hygiene standards",
+        "features": [
           "Room-by-room cleaning",
-          "Lobby and common areas",
-          "Linen and towel service",
-          "24/7 availability for hotels"
+          "Common area maintenance",
+          "Fast, high-quality service",
+          "Specialized team",
+          "Competitive hotel rates",
+          "Custom solutions for all sizes"
         ],
-        whatsapp: "Hi! I need hotel cleaning services. Can we discuss?",
+        "whatsapp": "I need hotel cleaning in Nador"
       },
-      clinicCleaning: {
-        title: "Clinic Cleaning",
-        desc: "Disinfection and hygienic cleaning following medical protocols",
-        features: [
-          "Medical-grade disinfection",
-          "HIPAA compliance protocols",
-          "Sterilization procedures",
-          "Biohazard handling",
-          "Medical equipment cleaning",
-          "Waiting area sanitization"
+      "clinicCleaning": {
+        "title": "Clinic Cleaning",
+        "desc": "Medical-grade disinfection services",
+        "features": [
+          "Complete sterilization",
+          "Special care for treatment rooms",
+          "Fast and precise service",
+          "Trained sanitation team",
+          "Affordable clinic rates",
+          "24/7 availability"
         ],
-        whatsapp: "Hi! I need clinic cleaning services. Can you help?",
+        "whatsapp": "I need clinic cleaning in Nador"
       },
-      officeCleaning: {
-        title: "Office & Shop Cleaning",
-        desc: "Regular cleaning for commercial offices and retail stores",
-        features: [
-          "Commercial office cleaning",
-          "Retail store maintenance",
-          "Daily or weekly schedules",
-          "Cubicle and desk cleaning",
-          "Break room sanitization",
-          "After-hours service available"
+      "officeCleaning": {
+        "title": "Office Cleaning",
+        "desc": "Practical solutions for businesses",
+        "features": [
+          "Daily/weekly service",
+          "After-hours cleaning",
+          "Complete workspace cleaning",
+          "Corporate discounts",
+          "Discreet, quiet team",
+          "Never disrupts your work"
         ],
-        whatsapp: "Hi! I need office cleaning services. Can you help?",
+        "whatsapp": "I need office cleaning in Nador"
       },
-      buildingCleaning: {
-        title: "Building/Common Area Cleaning",
-        desc: "Staircases, garages, rooftops, lighting and shared areas maintenance",
-        features: [
-          "Staircase and hallway cleaning",
-          "Garage and parking area maintenance",
-          "Rooftop and terrace cleaning",
-          "Lighting fixture maintenance",
-          "Shared facility cleaning",
-          "Regular maintenance schedules"
+      "buildingCleaning": {
+        "title": "Building Maintenance",
+        "desc": "Complete solutions for residential complexes",
+        "features": [
+          "Lobby and staircase cleaning",
+          "Elevator maintenance",
+          "Regular waste removal",
+          "Competitive complex rates",
+          "Fast, efficient service",
+          "Always available team"
         ],
-        whatsapp: "Hi! I need building cleaning services. Can we discuss?",
+        "whatsapp": "I need building cleaning in Nador"
       },
-      elevatorMaintenance: {
-        title: "Elevator Maintenance",
-        desc: "Monthly or on-demand service with full reports",
-        features: [
-          "Monthly maintenance contracts",
-          "On-demand emergency service",
-          "Full inspection reports",
-          "Safety compliance checks",
-          "Preventive maintenance",
-          "24/7 emergency response"
+      "elevatorMaintenance": {
+        "title": "Elevator Services",
+        "desc": "Quick, practical repairs",
+        "features": [
+          "Full elevator inspection",
+          "Immediate breakdown fixes",
+          "Available spare parts",
+          "Competitive pricing",
+          "Same-day service",
+          "Experienced technicians"
         ],
-        whatsapp: "Hi! I need elevator maintenance. Can you help?",
+        "whatsapp": "I need elevator maintenance in Nador"
       },
-      electricalMaintenance: {
-        title: "Electrical Maintenance",
-        desc: "Light bulb replacements, switches, outlets, etc.",
-        features: [
-          "Light bulb replacements",
-          "Switch and outlet repairs",
-          "Electrical safety inspections",
-          "Circuit breaker maintenance",
-          "Emergency electrical repairs",
-          "Energy efficiency upgrades"
+      "electricalMaintenance": {
+        "title": "Electrical Services",
+        "desc": "Safe and fast solutions",
+        "features": [
+          "Electrical repairs",
+          "Light fixture installation",
+          "Wiring solutions",
+          "Fast emergency response",
+          "Transparent pricing",
+          "Neat, precise work"
         ],
-        whatsapp: "Hi! I need electrical maintenance. Can you provide a quote?",
+        "whatsapp": "I need an electrician in Nador"
       },
-      plumbingMaintenance: {
-        title: "Plumbing Maintenance",
-        desc: "Leak repairs, tap replacements, general plumbing fixes",
-        features: [
-          "Leak detection and repair",
-          "Tap and fixture replacement",
-          "Drain cleaning and unclogging",
-          "Pipe repairs and maintenance",
-          "Water heater service",
-          "Emergency plumbing response"
+      "plumbingMaintenance": {
+        "title": "Plumbing Services",
+        "desc": "Solutions for water issues",
+        "features": [
+          "Leak repairs",
+          "Pipe cleaning",
+          "Bathroom fixes",
+          "On-demand service",
+          "Fair prices",
+          "Work guarantee"
         ],
-        whatsapp: "Hi! I need plumbing maintenance. Can you help?",
+        "whatsapp": "I need a plumber in Nador"
       },
-      generalMaintenance: {
-        title: "General Maintenance",
-        desc: "Minor repairs for villas, flats, or offices",
-        features: [
-          "Minor repair services",
-          "Carpentry and woodwork",
-          "Painting and touch-ups",
-          "Door and lock repairs",
+      "generalMaintenance": {
+        "title": "General Repairs",
+        "desc": "Solutions for all home needs",
+        "features": [
+          "Small and large repairs",
           "Furniture assembly",
-          "Multi-property maintenance"
+          "Door fixes",
+          "Fast, quality service",
+          "Affordable rates",
+          "Skilled multi-task team"
         ],
-        whatsapp: "Hi! I need general maintenance services. Can we discuss?",
+        "whatsapp": "I need home repairs in Nador"
       },
-      receptionStaff: {
-        title: "Reception Staff",
-        desc: "Professional receptionists for hotels, clinics, or business centers",
-        features: [
-          "Professional receptionists",
-          "Hotel front desk service",
-          "Clinic reception management",
-          "Business center support",
-          "Multi-language capabilities",
-          "24/7 staffing available"
+      "receptionStaff": {
+        "title": "Front Desk Services",
+        "desc": "Professional visitor management",
+        "features": [
+          "Polite client interaction",
+          "Appointment coordination",
+          "Entry/exit management",
+          "Business-friendly rates",
+          "Courteous, calm team",
+          "Long-term service"
         ],
-        whatsapp: "Hi! I need reception staff services. Can you help?",
+        "whatsapp": "I need reception staff in Nador"
       },
-      corporateServices: {
-        title: "Corporate Cleaning & Maintenance",
-        desc: "Tailored packages for companies on monthly or yearly contracts",
-        features: [
-          "Tailored corporate packages",
-          "Monthly/yearly contracts",
-          "Comprehensive cleaning services",
-          "Maintenance management",
-          "Dedicated account managers",
-          "Custom service schedules"
-        ],
-        whatsapp: "Hi! I need corporate cleaning services. Can you help?",
-      },
-      supermarketCleaning: {
-        title: "Supermarket & Mall Cleaning",
-        desc: "Daily or weekly cleaning with dedicated teams",
-        features: [
-          "Daily cleaning services",
-          "Dedicated cleaning teams",
-          "Food safety compliance",
-          "High-traffic area maintenance",
-          "Specialized equipment",
+      "corporateServices": {
+        "title": "Business Solutions",
+        "desc": "Custom plans for companies",
+        "features": [
+          "Annual/monthly contracts",
+          "Comprehensive services",
+          "Corporate pricing",
+          "Dedicated team for you",
+          "Consistent high quality",
           "Flexible scheduling"
         ],
-        whatsapp: "Hi! I need supermarket cleaning services. Can you help?",
+        "whatsapp": "I need a corporate cleaning contract"
       },
-      syndicServices: {
-        title: "Residence Cleaning & Maintenance",
-        desc: "Regular cleaning, elevator, lighting, plumbing maintenance with reports",
-        features: [
-          "Regular cleaning schedules",
-          "Elevator maintenance",
-          "Lighting system upkeep",
-          "Plumbing maintenance",
-          "Detailed service reports",
-          "Resident communication"
+      "supermarketCleaning": {
+        "title": "Store Cleaning",
+        "desc": "Practical retail solutions",
+        "features": [
+          "Shelf and floor cleaning",
+          "Daily/weekly service",
+          "Competitive store rates",
+          "Fast, organized team",
+          "Cleaning without disruption",
+          "Visible results immediately"
         ],
-        whatsapp: "Hi! I need syndic services. Can you provide a quote?",
+        "whatsapp": "I need store cleaning in Nador"
       },
-      fullSyndicManagement: {
-        title: "Full Syndic Management",
-        desc: "Property maintenance and cleaning managed directly with residents' rep",
-        features: [
-          "Complete property management",
+      "syndicServices": {
+        "title": "Residential Complex Care",
+        "desc": "Cleaning management for buildings",
+        "features": [
+          "Common area cleaning",
+          "Waste management",
+          "Budget-friendly pricing",
+          "Regular, precise service",
           "Direct resident communication",
-          "Maintenance coordination",
-          "Cleaning supervision",
-          "Budget management",
-          "Regular reporting"
+          "Long-term solutions"
         ],
-        whatsapp: "Hi! I need full syndic management. Can we discuss?",
+        "whatsapp": "I need cleaning for my residential complex"
       },
-      whatsapp: "WhatsApp",
-      details: "Details",
-      whatsIncluded: "What's Included:",
-      getQuote: "Get Quote on WhatsApp",
-      callNow: "Call Now",
-      startingFrom: "Starting from",
-      emergencyRate: "Emergency Rate",
+      "fullSyndicManagement": {
+        "title": "Complete Property Management",
+        "desc": "End-to-end building solutions",
+        "features": [
+          "Full service coordination",
+          "Vendor management",
+          "Clear, all-inclusive pricing",
+          "Custom solutions per complex",
+          "Tangible results",
+          "Always available team"
+        ],
+        "whatsapp": "I need management for my residential complex"
+      },
+      "whatsapp": "Chat Now",
+      "details": "What We Offer:",
+      "whatsIncluded": "Features:",
+      "getQuote": "Get Pricing",
+      "callNow": "Call Now",
+      "startingFrom": "Prices start from",
+      "emergencyRate": "Emergency Service"
     },
-    stats: {
-      happyCustomers: "Happy Customers",
-      jobsCompleted: "Jobs Completed",
-      yearsExperience: "Years Experience",
-      averageRating: "Average Rating",
+    "stats": {
+      "happyCustomers": "Happy Clients",
+      "jobsCompleted": "Completed Projects",
+      "yearsExperience": "Years of Experience",
+      "averageRating": "Client Rating"
     },
-    contact: {
-      title: "Get In Touch",
-      subtitle:
-        "Ready to start your cleaning project? Contact us today for instant quotes and professional service!",
-      whatsappTitle: "WhatsApp Us",
-      whatsappDesc: "Get instant quotes and quick responses! Available 24/7 for emergencies",
-      whatsappBtn: "Start WhatsApp Chat",
-      whatsappFeatures: "✓ Instant response • ✓ Free quotes • ✓ Photo sharing",
-      phoneTitle: "Call Now",
-      phoneDesc: "Speak directly with our experts Emergency line available 24/7",
-      phoneBtn: "Call (123) 456-7890",
-      phoneFeatures: "✓ Immediate help • ✓ Expert advice • ✓ Emergency service",
-      contactInfo: "Contact Information",
-      emergency: "24/7 Emergency",
-      serviceArea: "Service Area",
-      metroSuburbs: "Metro & Suburbs",
-      workingHours: "Working Hours",
-      schedule: "Mon-Sun: 7AM-10PM",
-      followSocial: "Follow Us on Social Media",
-      beforeAfter: "Before & After Photos",
-      customerUpdates: "Customer Updates",
-      diyTips: "DIY Tips & Tricks",
-      followers: "Followers",
-      likes: "Likes",
+    "contact": {
+      "title": "How Can We Help?",
+      "subtitle": "Our team is ready to assist you anytime",
+      "whatsappTitle": "Direct Chat",
+      "whatsappDesc": "Get quick answers on WhatsApp",
+      "whatsappBtn": "Start Chat",
+      "whatsappFeatures": "✓ Instant reply ✓ Clear pricing ✓ Personalized service",
+      "phoneTitle": "Call Us Now",
+      "phoneDesc": "Direct line to our service team",
+      "phoneBtn": "Call This Number",
+      "phoneFeatures": "✓ Fast service ✓ Practical solutions ✓ Professional team",
+      "contactInfo": "Contact Information",
+      "emergency": "24/7 Emergency",
+      "serviceArea": "Service Areas",
+      "metroSuburbs": "Nador City & Surroundings",
+      "workingHours": "Working Hours",
+      "schedule": "Daily from 8AM to 10PM",
+      "followSocial": "Follow Us on Social Media",
+      "beforeAfter": "Our Work Gallery",
+      "customerUpdates": "Client Reviews",
+      "diyTips": "Helpful Tips",
+      "followers": "Followers",
+      "likes": "Likes"
     },
-    whatsappModal: {
-      title: "WhatsApp Chat",
-      subtitle: "Typically replies instantly",
-      support: "RepairPro Support",
-      onlineNow: "Online now",
-      defaultMessage: "Hi there! How can we help?",
-      placeholder: "Type your message here...",
-      startChat: "Start Chat on WhatsApp",
-      quickMessages: "Quick messages:",
-      needQuote: "I need a quote",
-      emergency: "Emergency repair",
-      schedule: "Schedule service",
-      question: "Ask a question",
-      poweredBy: "Powered by",
-      justNow: "Just now",
+    "whatsappModal": {
+      "title": "Live Chat",
+      "subtitle": "Support team is ready to help",
+      "support": "Customer Service",
+      "onlineNow": "Online Now",
+      "defaultMessage": "Hello, how can we help?",
+      "placeholder": "Type your message here...",
+      "startChat": "Send",
+      "quickMessages": {
+        "needQuote": "I need pricing",
+        "emergency": "Emergency service",
+        "schedule": "Book an appointment",
+        "question": "I have a question"
+      },
+      "poweredBy": "Serving Nador since",
+      "justNow": "Replying now"
     },
-    footer: {
-      description:
-        "Your trusted partner for all cleaning and maintenance needs. Professional, reliable, and affordable services with guaranteed satisfaction.",
-      ourServices: "Our Services",
-      contactUs: "Contact Us",
-      whatsappUs: "WhatsApp Us",
-      rights: "© 2024 RepairPro. All rights reserved. | Licensed & Insured | BBB A+ Rated",
-    },
+    "footer": {
+      "description": "Your trusted cleaning and maintenance experts in Nador - high quality at fair prices",
+      "ourServices": "Our Services",
+      "contactUs": "Contact Us",
+      "whatsappUs": "Chat on WhatsApp",
+      "rights": "© 2024 All Rights Reserved"
+    }
   },
-  es: {
-    nav: {
-      home: "Inicio",
-      services: "Servicios",
-      about: "Nosotros",
-      contact: "Contacto",
-      whatsapp: "Contáctanos por WhatsApp",
-    },
-    hero: {
-      emergency: "Servicios de Emergencia 24/7 Disponibles",
-      title: "Tus",
-      titleHighlight: "Servicios de Limpieza",
-      titleEnd: "Profesionales",
-      subtitle:
-        "Servicios de limpieza y mantenimiento profesionales, confiables y asequibles. Desde limpieza de emergencia hasta contratos regulares, te ofrecemos",
-      subtitleHighlight: "satisfacción garantizada",
-      getQuote: "Obtén un Presupuesto Gratis por WhatsApp",
-      callNow: "Llama Ahora - Línea de Emergencia",
-    },
-    services: {
-      title: "Nuestros",
-      titleHighlight: "Servicios",
-      titleEnd: "Profesionales",
-      subtitle: "Servicios de limpieza y mantenimiento expertos con calidad garantizada y satisfacción del cliente.",
-      subtitleHighlight: "Licenciados, asegurados y confiados por miles.",
-      apartmentCleaning: {
-        title: "Limpieza de Apartamentos",
-        desc: "Limpieza completa antes/después de mudanza usando productos profesionales",
-        features: [
-          "Productos de limpieza profesionales",
-          "Limpieza antes/después de mudanza",
-          "Limpieza profunda de todas las habitaciones",
-          "Sanitización de cocina y baño",
-          "Limpieza de ventanas y cristales",
-          "Limpieza de pisos y alfombras"
-        ],
-        whatsapp: "¡Hola! Necesito servicios de limpieza de apartamentos. ¿Me pueden ayudar?",
-      },
-      villaCleaning: {
-        title: "Limpieza de Villas",
-        desc: "Limpieza profunda interior y exterior de villas grandes",
-        features: [
-          "Limpieza profunda interior completa",
-          "Mantenimiento de áreas exteriores",
-          "Limpieza de jardín y piscina",
-          "Limpieza de techos altos",
-          "Productos de limpieza premium",
-          "Opciones de programación flexibles"
-        ],
-        whatsapp: "¡Hola! Necesito servicios de limpieza de villas. ¿Pueden darme un presupuesto?",
-      },
-      hotelCleaning: {
-        title: "Limpieza Hotelera",
-        desc: "Contratos diarios o semanales siguiendo estándares de la industria hotelera",
-        features: [
-          "Estándares de la industria hotelera",
-          "Contratos diarios o semanales",
-          "Limpieza habitación por habitación",
-          "Lobby y áreas comunes",
-          "Servicio de ropa de cama y toallas",
-          "Disponibilidad 24/7 para hoteles"
-        ],
-        whatsapp: "¡Hola! Necesito servicios de limpieza hotelera. ¿Podemos hablar?",
-      },
-      clinicCleaning: {
-        title: "Limpieza de Clínicas",
-        desc: "Desinfección y limpieza higiénica siguiendo protocolos médicos",
-        features: [
-          "Desinfección de calidad médica",
-          "Protocolos conformes con HIPAA",
-          "Procedimientos de esterilización",
-          "Manejo de desechos biológicos",
-          "Limpieza de equipos médicos",
-          "Sanitización de sala de espera"
-        ],
-        whatsapp: "¡Hola! Necesito servicios de limpieza de clínicas. ¿Me pueden ayudar?",
-      },
-      officeCleaning: {
-        title: "Limpieza de Oficinas y Tiendas",
-        desc: "Limpieza regular para oficinas comerciales y tiendas",
-        features: [
-          "Limpieza de oficinas comerciales",
-          "Mantenimiento de tiendas minoristas",
-          "Horarios diarios o semanales",
-          "Limpieza de cubículos y escritorios",
-          "Sanitización de sala de descanso",
-          "Servicio después de horas disponible"
-        ],
-        whatsapp: "¡Hola! Necesito servicios de limpieza de oficinas. ¿Me pueden ayudar?",
-      },
-      buildingCleaning: {
-        title: "Limpieza de Edificios/Áreas Comunes",
-        desc: "Escaleras, garajes, techos, iluminación y mantenimiento de áreas compartidas",
-        features: [
-          "Limpieza de escaleras y pasillos",
-          "Mantenimiento de garaje y estacionamiento",
-          "Limpieza de techos y terrazas",
-          "Mantenimiento de luminarias",
-          "Limpieza de instalaciones compartidas",
-          "Horarios de mantenimiento regulares"
-        ],
-        whatsapp: "¡Hola! Necesito servicios de limpieza de edificios. ¿Podemos hablar?",
-      },
-      elevatorMaintenance: {
-        title: "Mantenimiento de Ascensores",
-        desc: "Servicio mensual o bajo demanda con reportes completos",
-        features: [
-          "Contratos de mantenimiento mensuales",
-          "Servicio de emergencia bajo demanda",
-          "Reportes de inspección completos",
-          "Verificaciones de cumplimiento de seguridad",
-          "Mantenimiento preventivo",
-          "Respuesta de emergencia 24/7"
-        ],
-        whatsapp: "¡Hola! Necesito mantenimiento de ascensores. ¿Me pueden ayudar?",
-      },
-      electricalMaintenance: {
-        title: "Mantenimiento Eléctrico",
-        desc: "Reemplazo de bombillas, interruptores, tomacorrientes, etc.",
-        features: [
-          "Reemplazo de bombillas",
-          "Reparación de interruptores y tomacorrientes",
-          "Inspecciones de seguridad eléctrica",
-          "Mantenimiento de disyuntores",
-          "Reparaciones eléctricas de emergencia",
-          "Mejoras de eficiencia energética"
-        ],
-        whatsapp: "¡Hola! Necesito mantenimiento eléctrico. ¿Pueden darme un presupuesto?",
-      },
-      plumbingMaintenance: {
-        title: "Mantenimiento de Plomería",
-        desc: "Reparación de fugas, reemplazo de grifos, reparaciones generales de plomería",
-        features: [
-          "Detección y reparación de fugas",
-          "Reemplazo de grifos y accesorios",
-          "Limpieza y desatascado de drenajes",
-          "Reparación y mantenimiento de tuberías",
-          "Servicio de calentador de agua",
-          "Respuesta de emergencia de plomería"
-        ],
-        whatsapp: "¡Hola! Necesito mantenimiento de plomería. ¿Me pueden ayudar?",
-      },
-      generalMaintenance: {
-        title: "Mantenimiento General",
-        desc: "Reparaciones menores para villas, apartamentos u oficinas",
-        features: [
-          "Servicios de reparación menor",
-          "Carpintería y trabajos en madera",
-          "Pintura y retoques",
-          "Reparación de puertas y cerraduras",
-          "Ensamblaje de muebles",
-          "Mantenimiento multi-propiedades"
-        ],
-        whatsapp: "¡Hola! Necesito servicios de mantenimiento general. ¿Podemos hablar?",
-      },
-      receptionStaff: {
-        title: "Personal de Recepción",
-        desc: "Recepcionistas profesionales para hoteles, clínicas o centros de negocios",
-        features: [
-          "Recepcionistas profesionales",
-          "Servicio de recepción hotelera",
-          "Gestión de recepción de clínicas",
-          "Soporte para centros de negocios",
-          "Capacidades multi-idioma",
-          "Personal disponible 24/7"
-        ],
-        whatsapp: "¡Hola! Necesito servicios de personal de recepción. ¿Me pueden ayudar?",
-      },
-      corporateServices: {
-        title: "Limpieza y Mantenimiento Corporativo",
-        desc: "Paquetes personalizados para empresas en contratos mensuales o anuales",
-        features: [
-          "Paquetes corporativos personalizados",
-          "Contratos mensuales/anuales",
-          "Servicios de limpieza integrales",
-          "Gestión de mantenimiento",
-          "Gerentes de cuenta dedicados",
-          "Horarios de servicio personalizados"
-        ],
-        whatsapp: "¡Hola! Necesito servicios de limpieza corporativa. ¿Me pueden ayudar?",
-      },
-      supermarketCleaning: {
-        title: "Limpieza de Supermercados y Centros Comerciales",
-        desc: "Limpieza diaria o semanal con equipos dedicados",
-        features: [
-          "Servicios de limpieza diarios",
-          "Equipos de limpieza dedicados",
-          "Cumplimiento de seguridad alimentaria",
-          "Mantenimiento de áreas de alto tráfico",
-          "Equipos especializados",
-          "Programación flexible"
-        ],
-        whatsapp: "¡Hola! Necesito servicios de limpieza de supermercados. ¿Me pueden ayudar?",
-      },
-      syndicServices: {
-        title: "Limpieza y Mantenimiento de Residencias",
-        desc: "Limpieza regular, mantenimiento de ascensores, iluminación, plomería con reportes",
-        features: [
-          "Horarios de limpieza regulares",
-          "Mantenimiento de ascensores",
-          "Mantenimiento del sistema de iluminación",
-          "Mantenimiento de plomería",
-          "Reportes de servicio detallados",
-          "Comunicación con residentes"
-        ],
-        whatsapp: "¡Hola! Necesito servicios de sindicato. ¿Pueden darme un presupuesto?",
-      },
-      fullSyndicManagement: {
-        title: "Gestión Completa de Sindicato",
-        desc: "Mantenimiento y limpieza de propiedades gestionados directamente con representante de residentes",
-        features: [
-          "Gestión completa de propiedades",
-          "Comunicación directa con residentes",
-          "Coordinación de mantenimiento",
-          "Supervisión de limpieza",
-          "Gestión de presupuesto",
-          "Reportes regulares"
-        ],
-        whatsapp: "¡Hola! Necesito gestión completa de sindicato. ¿Podemos hablar?",
-      },
-      whatsapp: "WhatsApp",
-      details: "Detalles",
-      whatsIncluded: "Lo que está incluido:",
-      getQuote: "Obtener Presupuesto por WhatsApp",
-      callNow: "Llamar Ahora",
-      startingFrom: "A partir de",
-      emergencyRate: "Tarifa de Emergencia",
-    },
-    stats: {
-      happyCustomers: "Clientes Satisfechos",
-      jobsCompleted: "Trabajos Completados",
-      yearsExperience: "Años de Experiencia",
-      averageRating: "Calificación Promedio",
-    },
-    contact: {
-      title: "Contáctanos",
-      subtitle:
-        "¿Listo para comenzar tu proyecto de limpieza? ¡Contáctanos hoy para presupuestos instantáneos y servicio profesional!",
-      whatsappTitle: "Contáctanos por WhatsApp",
-      whatsappDesc: "¡Obtén presupuestos instantáneos y respuestas rápidas! Disponible 24/7 para emergencias",
-      whatsappBtn: "Iniciar Chat de WhatsApp",
-      whatsappFeatures: "✓ Respuesta instantánea • ✓ Presupuestos gratis • ✓ Compartir fotos",
-      phoneTitle: "Llamar Ahora",
-      phoneDesc: "Habla directamente con nuestros expertos Línea de emergencia disponible 24/7",
-      phoneBtn: "Llamar (123) 456-7890",
-      phoneFeatures: "✓ Ayuda inmediata • ✓ Consejos expertos • ✓ Servicio de emergencia",
-      contactInfo: "Información de Contacto",
-      emergency: "Emergencia 24/7",
-      serviceArea: "Área de Servicio",
-      metroSuburbs: "Metro y Suburbios",
-      workingHours: "Horas de Trabajo",
-      schedule: "Lun-Dom: 7AM-10PM",
-      followSocial: "Síguenos en Redes Sociales",
-      beforeAfter: "Fotos Antes y Después",
-      customerUpdates: "Actualizaciones de Clientes",
-      diyTips: "Consejos y Trucos DIY",
-      followers: "Seguidores",
-      likes: "Me gusta",
-    },
-    whatsappModal: {
-      title: "Chat de WhatsApp",
-      subtitle: "Típicamente responde instantáneamente",
-      support: "Soporte RepairPro",
-      onlineNow: "En línea ahora",
-      defaultMessage: "¡Hola! ¿Cómo podemos ayudarte?",
-      placeholder: "Escribe tu mensaje aquí...",
-      startChat: "Iniciar Chat en WhatsApp",
-      quickMessages: "Mensajes rápidos:",
-      needQuote: "Necesito un presupuesto",
-      emergency: "Reparación de emergencia",
-      schedule: "Agendar servicio",
-      question: "Hacer una pregunta",
-      poweredBy: "Con tecnología de",
-      justNow: "Ahora mismo",
-    },
-    footer: {
-      description:
-        "Tu socio de confianza para todas las necesidades de limpieza y mantenimiento. Servicios profesionales, confiables y asequibles con satisfacción garantizada.",
-      ourServices: "Nuestros Servicios",
-      contactUs: "Contáctanos",
-      whatsappUs: "Contáctanos por WhatsApp",
-      rights: "© 2024 RepairPro. Todos los derechos reservados. | Licenciado y Asegurado | BBB A+ Calificado",
-    },
-  },
-  fr: {
-    nav: {
-      home: "Accueil",
-      services: "Services",
-      about: "À propos",
-      contact: "Contact",
-      whatsapp: "WhatsApp",
-    },
-    hero: {
-      emergency: "Services d'urgence disponibles 24/7",
-      title: "Vos",
-      titleHighlight: "Services de Nettoyage",
-      titleEnd: "Professionnels",
-      subtitle:
-        "Services de nettoyage et de maintenance professionnels, fiables et abordables. Du nettoyage d'urgence aux contrats réguliers, nous vous couvrons avec",
-      subtitleHighlight: "satisfaction garantie",
-      getQuote: "Obtenir un devis gratuit sur WhatsApp",
-      callNow: "Appeler maintenant - Ligne d'urgence",
-    },
-    services: {
-      title: "Nos",
-      titleHighlight: "Services",
-      titleEnd: "Professionnels",
-      subtitle: "Services de nettoyage et de maintenance experts avec qualité garantie et satisfaction client.",
-      subtitleHighlight: "Licenciés, assurés et approuvés par des milliers.",
-      apartmentCleaning: {
-        title: "Nettoyage d'Appartement",
-        desc: "Nettoyage complet avant/après emménagement avec produits professionnels",
-        features: [
-          "Produits de nettoyage professionnels",
-          "Nettoyage avant/après emménagement",
-          "Nettoyage en profondeur de toutes les pièces",
-          "Sanitisation cuisine et salle de bain",
-          "Nettoyage vitres et surfaces vitrées",
-          "Nettoyage sols et moquettes"
-        ],
-        whatsapp: "Bonjour ! J'ai besoin de services de nettoyage d'appartement. Pouvez-vous m'aider ?",
-      },
-      villaCleaning: {
-        title: "Nettoyage de Villa",
-        desc: "Nettoyage en profondeur intérieur et extérieur des grandes villas",
-        features: [
-          "Nettoyage en profondeur complet intérieur",
-          "Entretien des espaces extérieurs",
-          "Nettoyage jardin et piscine",
-          "Nettoyage plafonds hauts",
-          "Produits de nettoyage premium",
-          "Options de planification flexibles"
-        ],
-        whatsapp: "Bonjour ! J'ai besoin de services de nettoyage de villa. Pouvez-vous me faire un devis ?",
-      },
-      hotelCleaning: {
-        title: "Nettoyage Hôtelier",
-        desc: "Contrats quotidiens ou hebdomadaires selon les standards hôteliers",
-        features: [
-          "Standards de l'industrie hôtelière",
-          "Contrats quotidiens ou hebdomadaires",
-          "Nettoyage chambre par chambre",
-          "Hall et espaces communs",
-          "Service linge et serviettes",
-          "Disponibilité 24/7 pour hôtels"
-        ],
-        whatsapp: "Bonjour ! J'ai besoin de services de nettoyage hôtelier. Pouvons-nous discuter ?",
-      },
-      clinicCleaning: {
-        title: "Nettoyage de Clinique",
-        desc: "Désinfection et nettoyage hygiénique selon protocoles médicaux",
-        features: [
-          "Désinfection de qualité médicale",
-          "Protocoles conformes HIPAA",
-          "Procédures de stérilisation",
-          "Gestion des déchets biologiques",
-          "Nettoyage équipements médicaux",
-          "Sanitisation salle d'attente"
-        ],
-        whatsapp: "Bonjour ! J'ai besoin de services de nettoyage de clinique. Pouvez-vous m'aider ?",
-      },
-      officeCleaning: {
-        title: "Nettoyage Bureau & Magasin",
-        desc: "Nettoyage régulier pour bureaux commerciaux et magasins",
-        features: [
-          "Nettoyage bureaux commerciaux",
-          "Entretien magasins de détail",
-          "Horaires quotidiens ou hebdomadaires",
-          "Nettoyage cubicules et bureaux",
-          "Sanitisation salle de pause",
-          "Service après heures disponible"
-        ],
-        whatsapp: "Bonjour ! J'ai besoin de services de nettoyage de bureau. Pouvez-vous m'aider ?",
-      },
-      buildingCleaning: {
-        title: "Nettoyage Immeuble/Espaces Communs",
-        desc: "Escaliers, garages, toits, éclairage et entretien zones partagées",
-        features: [
-          "Nettoyage escaliers et couloirs",
-          "Entretien garage et parking",
-          "Nettoyage toits et terrasses",
-          "Entretien luminaires",
-          "Nettoyage installations partagées",
-          "Horaires d'entretien réguliers"
-        ],
-        whatsapp: "Bonjour ! J'ai besoin de services de nettoyage d'immeuble. Pouvons-nous discuter ?",
-      },
-      elevatorMaintenance: {
-        title: "Maintenance Ascenseur",
-        desc: "Service mensuel ou à la demande avec rapports complets",
-        features: [
-          "Contrats de maintenance mensuels",
-          "Service d'urgence à la demande",
-          "Rapports d'inspection complets",
-          "Vérifications conformité sécurité",
-          "Maintenance préventive",
-          "Intervention d'urgence 24/7"
-        ],
-        whatsapp: "Bonjour ! J'ai besoin de maintenance d'ascenseur. Pouvez-vous m'aider ?",
-      },
-      electricalMaintenance: {
-        title: "Maintenance Électrique",
-        desc: "Remplacement ampoules, interrupteurs, prises, etc.",
-        features: [
-          "Remplacement ampoules",
-          "Réparations interrupteurs et prises",
-          "Inspections sécurité électrique",
-          "Maintenance disjoncteurs",
-          "Réparations électriques d'urgence",
-          "Améliorations efficacité énergétique"
-        ],
-        whatsapp: "Bonjour ! J'ai besoin de maintenance électrique. Pouvez-vous me faire un devis ?",
-      },
-      plumbingMaintenance: {
-        title: "Maintenance Plomberie",
-        desc: "Réparations fuites, remplacement robinets, réparations plomberie générale",
-        features: [
-          "Détection et réparation fuites",
-          "Remplacement robinets et accessoires",
-          "Nettoyage et débouchage canalisations",
-          "Réparations et maintenance tuyauterie",
-          "Service chauffe-eau",
-          "Intervention plomberie d'urgence"
-        ],
-        whatsapp: "Bonjour ! J'ai besoin de maintenance plomberie. Pouvez-vous m'aider ?",
-      },
-      generalMaintenance: {
-        title: "Maintenance Générale",
-        desc: "Petites réparations pour villas, appartements ou bureaux",
-        features: [
-          "Services de petites réparations",
-          "Menuiserie et travaux bois",
-          "Peinture et retouches",
-          "Réparations portes et serrures",
-          "Montage meubles",
-          "Maintenance multi-propriétés"
-        ],
-        whatsapp: "Bonjour ! J'ai besoin de services de maintenance générale. Pouvons-nous discuter ?",
-      },
-      receptionStaff: {
-        title: "Personnel de Réception",
-        desc: "Réceptionnistes professionnels pour hôtels, cliniques ou centres d'affaires",
-        features: [
-          "Réceptionnistes professionnels",
-          "Service réception hôtel",
-          "Gestion réception clinique",
-          "Support centre d'affaires",
-          "Capacités multi-langues",
-          "Personnel disponible 24/7"
-        ],
-        whatsapp: "Bonjour ! J'ai besoin de services de personnel de réception. Pouvez-vous m'aider ?",
-      },
-      corporateServices: {
-        title: "Nettoyage & Maintenance Corporate",
-        desc: "Forfaits personnalisés pour entreprises sur contrats mensuels ou annuels",
-        features: [
-          "Forfaits corporate personnalisés",
-          "Contrats mensuels/annuels",
-          "Services de nettoyage complets",
-          "Gestion maintenance",
-          "Gestionnaires de compte dédiés",
-          "Horaires de service personnalisés"
-        ],
-        whatsapp: "Bonjour ! J'ai besoin de services de nettoyage corporate. Pouvez-vous m'aider ?",
-      },
-      supermarketCleaning: {
-        title: "Nettoyage Supermarché & Centre Commercial",
-        desc: "Nettoyage quotidien ou hebdomadaire avec équipes dédiées",
-        features: [
-          "Services de nettoyage quotidiens",
-          "Équipes de nettoyage dédiées",
-          "Conformité sécurité alimentaire",
-          "Entretien zones haute fréquentation",
-          "Équipements spécialisés",
-          "Planification flexible"
-        ],
-        whatsapp: "Bonjour ! J'ai besoin de services de nettoyage de supermarché. Pouvez-vous m'aider ?",
-      },
-      syndicServices: {
-        title: "Nettoyage & Maintenance Résidence",
-        desc: "Nettoyage régulier, maintenance ascenseur, éclairage, plomberie avec rapports",
-        features: [
-          "Horaires de nettoyage réguliers",
-          "Maintenance ascenseur",
-          "Entretien système éclairage",
-          "Maintenance plomberie",
-          "Rapports de service détaillés",
-          "Communication avec résidents"
-        ],
-        whatsapp: "Bonjour ! J'ai besoin de services syndic. Pouvez-vous me faire un devis ?",
-      },
-      fullSyndicManagement: {
-        title: "Gestion Syndic Complète",
-        desc: "Maintenance et nettoyage de propriété gérés directement avec représentant résidents",
-        features: [
-          "Gestion complète de propriété",
-          "Communication directe résidents",
-          "Coordination maintenance",
-          "Supervision nettoyage",
-          "Gestion budget",
-          "Rapports réguliers"
-        ],
-        whatsapp: "Bonjour ! J'ai besoin de gestion syndic complète. Pouvons-nous discuter ?",
-      },
-      whatsapp: "WhatsApp",
-      details: "Détails",
-      whatsIncluded: "Ce qui est inclus :",
-      getQuote: "Obtenir devis sur WhatsApp",
-      callNow: "Appeler maintenant",
-      startingFrom: "À partir de",
-      emergencyRate: "Tarif d'urgence",
-    },
-    stats: {
-      happyCustomers: "Clients Satisfaits",
-      jobsCompleted: "Travaux Terminés",
-      yearsExperience: "Années d'Expérience",
-      averageRating: "Note Moyenne",
-    },
-    contact: {
-      title: "Contactez-nous",
-      subtitle:
-        "Prêt à commencer votre projet de nettoyage ? Contactez-nous aujourd'hui pour des devis instantanés et un service professionnel !",
-      whatsappTitle: "WhatsApp",
-      whatsappDesc: "Obtenez des devis instantanés et des réponses rapides ! Disponible 24/7 pour urgences",
-      whatsappBtn: "Démarrer Chat WhatsApp",
-      whatsappFeatures: "✓ Réponse instantanée • ✓ Devis gratuits • ✓ Partage photos",
-      phoneTitle: "Appeler Maintenant",
-      phoneDesc: "Parlez directement avec nos experts Ligne d'urgence disponible 24/7",
-      phoneBtn: "Appeler (123) 456-7890",
-      phoneFeatures: "✓ Aide immédiate • ✓ Conseils experts • ✓ Service d'urgence",
-      contactInfo: "Informations de Contact",
-      emergency: "Urgence 24/7",
-      serviceArea: "Zone de Service",
-      metroSuburbs: "Métro & Banlieues",
-      workingHours: "Heures de Travail",
-      schedule: "Lun-Dim: 7h-22h",
-      followSocial: "Suivez-nous sur les Réseaux Sociaux",
-      beforeAfter: "Photos Avant & Après",
-      customerUpdates: "Mises à jour Clients",
-      diyTips: "Conseils & Astuces DIY",
-      followers: "Abonnés",
-      likes: "J'aime",
-    },
-    whatsappModal: {
-      title: "Chat WhatsApp",
-      subtitle: "Répond généralement instantanément",
-      support: "Support RepairPro",
-      onlineNow: "En ligne maintenant",
-      defaultMessage: "Bonjour ! Comment pouvons-nous vous aider ?",
-      placeholder: "Tapez votre message ici...",
-      startChat: "Démarrer Chat sur WhatsApp",
-      quickMessages: "Messages rapides :",
-      needQuote: "J'ai besoin d'un devis",
-      emergency: "Réparation d'urgence",
-      schedule: "Planifier service",
-      question: "Poser une question",
-      poweredBy: "Propulsé par",
-      justNow: "À l'instant",
-    },
-    footer: {
-      description:
-        "Votre partenaire de confiance pour tous vos besoins de nettoyage et maintenance. Services professionnels, fiables et abordables avec satisfaction garantie.",
-      ourServices: "Nos Services",
-      contactUs: "Contactez-nous",
-      whatsappUs: "WhatsApp",
-      rights: "© 2024 RepairPro. Tous droits réservés. | Licencié & Assuré | BBB A+ Évalué",
-    },
-  },
-  ar: {
+  "ar": {
     "nav": {
       "home": "الرئيسية",
-      "services": "الخدمات",
-      "about": "من نحن",
+      "services": "خدماتنا",
+      "about": "عن الشركة",
       "contact": "اتصل بنا",
       "whatsapp": "راسلنا على واتساب"
     },
     "hero": {
-      "emergency": "خدمات طوارئ متاحة 24/7",
-      "title": "خدمات",
+      "emergency": "خدمات سريعة متاحة 24 ساعة في الناظور",
+      "title": "شركتك المختصة في",
       "titleHighlight": "التنظيف",
-      "titleEnd": "المهنية",
-      "subtitle": "خدمات تنظيف وصيانة محترفة وموثوقة وبأسعار معقولة. من التنظيف الطارئ إلى العقود المنتظمة، نحن نضمن لك",
-      "subtitleHighlight": "رضا مضمون",
-      "getQuote": "احصل على عرض مجاني عبر واتساب",
-      "callNow": "اتصل الآن - خط الطوارئ"
+      "titleEnd": "والصيانة",
+      "subtitle": "حلول عملية بجودة عالية تناسب منازل وشركات الناظور. نضمن لك نتائج واضحة مع",
+      "subtitleHighlight": "أسعار مناسبة للجميع",
+      "getQuote": "اطلب عرض سعر الآن",
+      "callNow": "اتصل للطوارئ"
     },
     "services": {
+      "showall": "عرض جميع الخدمات",
       "title": "خدماتنا",
-      "titleHighlight": "المهنية",
-      "titleEnd": " المحترفة",
-      "subtitle": "خدمات تنظيف وصيانة بخبرة وجودة مضمونة ورضا العملاء.",
-      "subtitleHighlight": "مرخصون ومؤمنون وموثوق بهم من قبل الآلاف.",
-      "apartmentCleaning": {
-        "title": "تنظيف الشقق",
-        "desc": "تنظيف كامل قبل/بعد الانتقال باستخدام منتجات احترافية",
+      "titleHighlight": "المضمونة",
+      "titleEnd": "لك",
+      "subtitle": "نقدم خدمات ملموسة بفريق مدرب وخبرة طويلة في الناظور",
+      "subtitleHighlight": "نستخدم أفضل المواد والمنظفات",
+      "homeCleaning": {
+        "title": "تنظيف المنازل",
+        "desc": "خدمة شاملة لجميع أنواع الشقق والفيلات في الناظور",
         "features": [
-          "منتجات تنظيف احترافية",
-          "تنظيف قبل/بعد الانتقال",
-          "تنظيف عميق لجميع الغرف",
-          "تعقيم المطبخ والحمام",
-          "تنظيف النوافذ والزجاج",
-          "تنظيف الأرضيات والسجاد"
+          "تنظيف كل الغرف بدقة",
+          "تعقيم المطابخ والحمامات",
+          "تنظيف النوافذ والشرفات",
+          "خدمات ما بعد البناء",
+          "مواعيد تناسب جدولك",
+          "منتجات آمنة للعائلة",
+          "أسعار تناسب الميزانية"
         ],
-        "whatsapp": "مرحبًا! أحتاج إلى خدمات تنظيف الشقق. هل يمكنكم المساعدة؟"
-      },
-      "villaCleaning": {
-        "title": "تنظيف الفيلات",
-        "desc": "تنظيف عميق داخلي وخارجي للفيلات الكبيرة",
-        "features": [
-          "تنظيف عميق داخلي شامل",
-          "صيانة المناطق الخارجية",
-          "تنظيف الحديقة والبركة",
-          "تنظيف الأسقف العالية",
-          "منتجات تنظيف ممتازة",
-          "خيارات جدولة مرنة"
-        ],
-        "whatsapp": "مرحبًا! أحتاج إلى خدمات تنظيف الفيلات. هل يمكنكم تقديم عرض سعر؟"
+        "whatsapp": "أحتاج تنظيف منزل في الناظور"
       },
       "hotelCleaning": {
         "title": "تنظيف الفنادق",
-        "desc": "عقود يومية أو أسبوعية تتبع معايير صناعة الفنادق",
+        "desc": "خدمات يومية تحافظ على معايير النظافة",
         "features": [
-          "معايير صناعة الفنادق",
-          "عقود يومية أو أسبوعية",
-          "تنظيف غرفة بغرفة",
-          "اللوبي والمناطق المشتركة",
-          "خدمة الملابس والمناشف",
-          "متاح 24/7 للفنادق"
+          "تنظيف الغرف يومياً",
+          "العناية بالمناطق العامة",
+          "خدمة سريعة وجودة عالية",
+          "فريق عمل متخصص",
+          "أسعار مناسبة للفنادق",
+          "حلول لكل حجم فندق"
         ],
-        "whatsapp": "مرحبًا! أحتاج إلى خدمات تنظيف الفنادق. هل يمكننا النقاش؟"
+        "whatsapp": "أبحث عن تنظيف فندقي في الناظور"
       },
       "clinicCleaning": {
         "title": "تنظيف العيادات",
-        "desc": "تعقيم وتنظيف صحي يتبع البروتوكولات الطبية",
+        "desc": "خدمات تعقيم طبية بمعايير عالية",
         "features": [
-          "تعقيم بجودة طبية",
-          "بروتوكولات متوافقة مع HIPAA",
-          "إجراءات التعقيم",
-          "التعامل مع النفايات البيولوجية",
-          "تنظيف المعدات الطبية",
-          "تعقيم غرفة الانتظار"
+          "تنظيف وتطهير كامل",
+          "اهتمام خاص بالغرف الطبية",
+          "خدمة سريعة ودقيقة",
+          "فريق مدرب على التعقيم",
+          "أسعار تناسب العيادات",
+          "خدمة في أي وقت"
         ],
-        "whatsapp": "مرحبًا! أحتاج إلى خدمات تنظيف العيادات. هل يمكنكم المساعدة؟"
+        "whatsapp": "أحتاج تنظيف عيادة في الناظور"
       },
       "officeCleaning": {
-        "title": "تنظيف المكاتب والمحلات",
-        "desc": "تنظيف منتظم للمكاتب التجارية والمحلات",
+        "title": "تنظيف المكاتب",
+        "desc": "حلول عملية للمكاتب والشركات",
         "features": [
-          "تنظيف المكاتب التجارية",
-          "صيانة محلات التجزئة",
-          "جداول يومية أو أسبوعية",
-          "تنظيف المكعبات والمكاتب",
-          "تعقيم غرفة الاستراحة",
-          "خدمة بعد ساعات العمل متاحة"
+          "تنظيف يومي أو أسبوعي",
+          "خدمة بعد الدوام",
+          "تنظيف شامل للمكاتب",
+          "أسعار خاصة للشركات",
+          "فريق منظم وهادئ",
+          "لا نعيق عملك"
         ],
-        "whatsapp": "مرحبًا! أحتاج إلى خدمات تنظيف المكاتب. هل يمكنكم المساعدة؟"
+        "whatsapp": "أحتاج تنظيف مكتب في الناظور"
       },
       "buildingCleaning": {
-        "title": "تنظيف المباني/المناطق المشتركة",
-        "desc": "السلالم، المرائب، الأسطح، الإضاءة وصيانة المناطق المشتركة",
+        "title": "تنظيف المباني",
+        "desc": "خدمات متكاملة للمجمعات السكنية",
         "features": [
-          "تنظيف السلالم والممرات",
-          "صيانة المرآب وموقف السيارات",
-          "تنظيف الأسطح والشرفات",
-          "صيانة الثريات",
-          "تنظيف المرافق المشتركة",
-          "جداول صيانة منتظمة"
+          "تنظيف المداخل والسلالم",
+          "صيانة المصاعد",
+          "إزالة النفايات بانتظام",
+          "أسعار تناسب المجمعات",
+          "خدمة سريعة وفعالة",
+          "فريق متاح دائماً"
         ],
-        "whatsapp": "مرحبًا! أحتاج إلى خدمات تنظيف المباني. هل يمكننا النقاش؟"
+        "whatsapp": "أحتاج تنظيف مبنى في الناظور"
       },
       "elevatorMaintenance": {
         "title": "صيانة المصاعد",
-        "desc": "خدمة شهرية أو عند الطلب مع تقارير كاملة",
+        "desc": "إصلاحات سريعة وعملية",
         "features": [
-          "عقود صيانة شهرية",
-          "خدمة طوارئ عند الطلب",
-          "تقارير فحص كاملة",
-          "فحوصات توافق السلامة",
-          "صيانة وقائية",
-          "استجابة طوارئ 24/7"
+          "فحص شامل للمصعد",
+          "إصلاح الأعطال فوراً",
+          "قطع غيار متوفرة",
+          "أسعار منافسة",
+          "خدمة في نفس اليوم",
+          "فنيون ذوو خبرة"
         ],
-        "whatsapp": "مرحبًا! أحتاج إلى صيانة المصاعد. هل يمكنكم المساعدة؟"
+        "whatsapp": "أحتاج صيانة مصعد في الناظور"
       },
       "electricalMaintenance": {
         "title": "الصيانة الكهربائية",
-        "desc": "استبدال المصابيح، المفاتيح، المقابس، إلخ",
+        "desc": "حلول آمنة وسريعة",
         "features": [
-          "استبدال المصابيح",
-          "إصلاح المفاتيح والمقابس",
-          "فحوصات السلامة الكهربائية",
-          "صيانة قواطع الدوائر",
-          "إصلاحات كهربائية طارئة",
-          "ترقيات كفاءة الطاقة"
+          "إصلاح الأعطال الكهربائية",
+          "تركيب وتغيير اللمبات",
+          "حل مشاكل الأسلاك",
+          "خدمة طوارئ سريعة",
+          "أسعار واضحة",
+          "عمل دقيق ونظيف"
         ],
-        "whatsapp": "مرحبًا! أحتاج إلى صيانة كهربائية. هل يمكنكم تقديم عرض سعر؟"
+        "whatsapp": "أحتاج كهربائي في الناظور"
       },
       "plumbingMaintenance": {
         "title": "صيانة السباكة",
-        "desc": "إصلاح التسريبات، استبدال الحنفيات، إصلاحات السباكة العامة",
+        "desc": "حلول لمشاكل المياه",
         "features": [
-          "كشف وإصلاح التسريبات",
-          "استبدال الحنفيات والتركيبات",
-          "تنظيف وتفريغ المجاري",
-          "إصلاح وصيانة الأنابيب",
-          "خدمة سخان المياه",
-          "استجابة طوارئ السباكة"
+          "إصلاح التسريبات",
+          "تنظيف الأنابيب",
+          "إصلاح الحمامات",
+          "خدمة سريعة عند الطلب",
+          "أسعار مناسبة",
+          "ضمان على العمل"
         ],
-        "whatsapp": "مرحبًا! أحتاج إلى صيانة السباكة. هل يمكنكم المساعدة؟"
+        "whatsapp": "أحتاج سباك في الناظور"
       },
       "generalMaintenance": {
-        "title": "الصيانة العامة",
-        "desc": "إصلاحات صغيرة للفيلات والشقق والمكاتب",
+        "title": "صيانة عامة",
+        "desc": "حلول لكل احتياجات المنزل",
         "features": [
-          "خدمات إصلاح صغيرة",
-          "النجارة وأعمال الخشب",
-          "الدهان واللمسات النهائية",
-          "إصلاح الأبواب والأقفال",
-          "تجميع الأثاث",
-          "صيانة متعددة العقارات"
+          "إصلاحات صغيرة وكبيرة",
+          "تركيب الأثاث",
+          "إصلاح الأبواب",
+          "خدمة سريعة وجودة عالية",
+          "أسعار تناسب الجميع",
+          "فريق متعدد المهارات"
         ],
-        "whatsapp": "مرحبًا! أحتاج إلى خدمات صيانة عامة. هل يمكننا النقاش؟"
+        "whatsapp": "أحتاج صيانة منزلية في الناظور"
       },
       "receptionStaff": {
-        "title": "موظفي الاستقبال",
-        "desc": "موظفي استقبال محترفين للفنادق والعيادات ومراكز الأعمال",
+        "title": "خدمات الاستقبال",
+        "desc": "فريق محترف لاستقبال الزوار",
         "features": [
-          "موظفي استقبال محترفين",
-          "خدمة استقبال الفندق",
-          "إدارة استقبال العيادة",
-          "دعم مركز الأعمال",
-          "قدرات متعددة اللغات",
-          "موظفين متاحين 24/7"
+          "تعامل راقٍ مع العملاء",
+          "إدارة المواعيد",
+          "تنظيم الدخول والخروج",
+          "أسعار تناسب المؤسسات",
+          "فريق لباق وهادئ",
+          "خدمة طويلة الأمد"
         ],
-        "whatsapp": "مرحبًا! أحتاج إلى خدمات موظفي الاستقبال. هل يمكنكم المساعدة؟"
+        "whatsapp": "أحتاج موظف استقبال في الناظور"
       },
       "corporateServices": {
-        "title": "التنظيف والصيانة للشركات",
-        "desc": "حزم مخصصة للشركات على عقود شهرية أو سنوية",
+        "title": "خدمات للشركات",
+        "desc": "حلول مخصصة للمؤسسات",
         "features": [
-          "حزم شركات مخصصة",
-          "عقود شهرية/سنوية",
-          "خدمات تنظيف شاملة",
-          "إدارة الصيانة",
-          "مديري حسابات مخصصين",
-          "جداول خدمة مخصصة"
+          "عقود سنوية أو شهرية",
+          "خدمات شاملة",
+          "أسعار خاصة للشركات",
+          "فريق مخصص لك",
+          "جودة عالية مستمرة",
+          "مرونة في المواعيد"
         ],
-        "whatsapp": "مرحبًا! أحتاج إلى خدمات تنظيف للشركات. هل يمكنكم المساعدة؟"
+        "whatsapp": "أبحث عن عقد تنظيف لشركتي"
       },
       "supermarketCleaning": {
-        "title": "تنظيف السوبرماركت والمراكز التجارية",
-        "desc": "تنظيف يومي أو أسبوعي مع فرق مخصصة",
+        "title": "تنظيف المتاجر",
+        "desc": "حلول عملية لقطاع التجزئة",
         "features": [
-          "خدمات تنظيف يومية",
-          "فرق تنظيف مخصصة",
-          "توافق سلامة الأغذية",
-          "صيانة مناطق الازدحام",
-          "معدات متخصصة",
-          "جدولة مرنة"
+          "تنظيف الرفوف والأرضيات",
+          "خدمة يومية أو أسبوعية",
+          "أسعار تناسب المتاجر",
+          "فريق سريع ومنظم",
+          "تنظيف دون عرقلة العمل",
+          "نتائج واضحة من اليوم الأول"
         ],
-        "whatsapp": "مرحبًا! أحتاج إلى خدمات تنظيف السوبرماركت. هل يمكنكم المساعدة؟"
+        "whatsapp": "أحتاج تنظيف متجر في الناظور"
       },
       "syndicServices": {
-        "title": "تنظيف وصيانة السكن",
-        "desc": "تنظيف منتظم، صيانة المصاعد، الإضاءة، السباكة مع تقارير",
+        "title": "خدمات المجمعات",
+        "desc": "إدارة النظافة للمباني السكنية",
         "features": [
-          "جداول تنظيف منتظمة",
-          "صيانة المصاعد",
-          "صيانة نظام الإضاءة",
-          "صيانة السباكة",
-          "تقارير خدمة مفصلة",
-          "تواصل مع السكان"
+          "تنظيف المناطق المشتركة",
+          "إدارة النفايات",
+          "أسعار تناسب الميزانيات",
+          "خدمة منتظمة ودقيقة",
+          "تواصل مباشر مع السكان",
+          "حلول طويلة الأمد"
         ],
-        "whatsapp": "مرحبًا! أحتاج إلى خدمات السنديك. هل يمكنكم تقديم عرض سعر؟"
+        "whatsapp": "أحتاج خدمة تنظيف لمجمع سكني"
       },
       "fullSyndicManagement": {
-        "title": "إدارة السنديك الكاملة",
-        "desc": "صيانة وتنظيف العقار تدير مباشرة مع ممثل السكان",
+        "title": "إدارة كاملة للمجمعات",
+        "desc": "حلول متكاملة للإدارة العقارية",
         "features": [
-          "إدارة عقار كاملة",
-          "تواصل مباشر مع السكان",
-          "تنسيق الصيانة",
-          "إشراف التنظيف",
-          "إدارة الميزانية",
-          "تقارير منتظمة"
+          "إدارة كافة الخدمات",
+          "تنسيق مع الموردين",
+          "أسعار شاملة وواضحة",
+          "خدمة مخصصة لكل مجمع",
+          "نتائج ملموسة",
+          "فريق متاح دائماً"
         ],
-        "whatsapp": "مرحبًا! أحتاج إلى إدارة سنديك كاملة. هل يمكننا النقاش؟"
+        "whatsapp": "أبحث عن مدير لمجمعي السكني"
       },
-      "whatsapp": "واتساب",
-      "details": "التفاصيل",
-      "whatsIncluded": "ما المدرج:",
-      "getQuote": "احصل على عرض سعر عبر واتساب",
-      "callNow": "اتصل الآن",
-      "startingFrom": "تبدأ من",
-      "emergencyRate": "سعر الطوارئ"
+      "whatsapp": "راسلنا الآن",
+      "details": "ماذا نقدم لك؟",
+      "whatsIncluded": "المميزات:",
+      "getQuote": "اطلب عرض السعر",
+      "callNow": "اتصل فوراً",
+      "startingFrom": "الأسعار تبدأ من",
+      "emergencyRate": "خدمة الطوارئ"
     },
     "stats": {
       "happyCustomers": "عملاء سعداء",
-      "jobsCompleted": "مهمات مكتملة",
+      "jobsCompleted": "مشاريع مكتملة",
       "yearsExperience": "سنوات خبرة",
-      "averageRating": "متوسط التقييم"
+      "averageRating": "تقييم العملاء"
     },
     "contact": {
-      "title": "تواصل معنا",
-      "subtitle": "هل أنت مستعد لبدء مشروع التنظيف؟ اتصل بنا اليوم للحصول على عروض أسعار فورية وخدمة محترفة!",
-      "whatsappTitle": "راسلنا على واتساب",
-      "whatsappDesc": "احصل على عروض أسعار فورية وردود سريعة! متاح 24/7 للطوارئ",
-      "whatsappBtn": "ابدأ محادثة واتساب",
-      "whatsappFeatures": "✓ رد فوري • ✓ عروض أسعار مجانية • ✓ مشاركة الصور",
-      "phoneTitle": "اتصل الآن",
-      "phoneDesc": "تحدث مباشرة مع خبرائنا خط الطوارئ متاح 24/7",
-      "phoneBtn": "اتصل على (123) 456-7890",
-      "phoneFeatures": "✓ مساعدة فورية • ✓ نصائح خبراء • ✓ خدمة طوارئ",
+      "title": "كيف نخدمك؟",
+      "subtitle": "فريقنا جاهز لمساعدتك في أي وقت",
+      "whatsappTitle": "راسلنا مباشرة",
+      "whatsappDesc": "احصل على رد سريع عبر واتساب",
+      "whatsappBtn": "ابدأ المحادثة",
+      "whatsappFeatures": "✓ رد فوري ✓ أسعار واضحة ✓ خدمة مخصصة",
+      "phoneTitle": "اتصل بنا الآن",
+      "phoneDesc": "خط مباشر مع فريق الخدمة",
+      "phoneBtn": "اتصل على الرقم",
+      "phoneFeatures": "✓ خدمة سريعة ✓ حلول عملية ✓ فريق محترف",
       "contactInfo": "معلومات الاتصال",
-      "emergency": "طوارئ 24/7",
-      "serviceArea": "منطقة الخدمة",
-      "metroSuburbs": "المدينة والضواحي",
+      "emergency": "طوارئ 24 ساعة",
+      "serviceArea": "مناطق الخدمة",
+      "metroSuburbs": "مدينة الناظور وضواحيها",
       "workingHours": "ساعات العمل",
-      "schedule": "من الاثنين إلى الأحد: 7 صباحًا - 10 مساءً",
-      "followSocial": "تابعنا على وسائل التواصل الاجتماعي",
-      "beforeAfter": "صور قبل وبعد",
-      "customerUpdates": "تحديثات العملاء",
-      "diyTips": "نصائح وأفكار للعمل الذاتي",
-      "followers": "متابعون",
-      "likes": "إعجابات"
+      "schedule": "يومياً من 8 صباحاً حتى 10 مساءً",
+      "followSocial": "تابعنا على السوشيال ميديا",
+      "beforeAfter": "معرض أعمالنا",
+      "customerUpdates": "آراء عملائنا",
+      "diyTips": "نصائح مفيدة",
+      "followers": "متابعين",
+      "likes": "معجبين"
     },
     "whatsappModal": {
-      "title": "محادثة واتساب",
-      "subtitle": "عادة ما يتم الرد فورًا",
-      "support": "دعم RepairPro",
+      "title": "محادثة مباشرة",
+      "subtitle": "فريق الدعم جاهز لمساعدتك",
+      "support": "خدمة العملاء",
       "onlineNow": "متصل الآن",
-      "defaultMessage": "مرحبًا! كيف يمكننا مساعدتك؟",
+      "defaultMessage": "مرحباً، كيف يمكننا مساعدتك؟",
       "placeholder": "اكتب رسالتك هنا...",
-      "startChat": "ابدأ المحادثة على واتساب",
-      "quickMessages": "رسائل سريعة:",
-      "needQuote": "أحتاج إلى عرض سعر",
-      "emergency": "إصلاح طارئ",
-      "schedule": "جدولة خدمة",
-      "question": "اطرح سؤالاً",
-      "poweredBy": "مدعوم من",
-      "justNow": "الآن"
+      "startChat": "إرسال",
+      "quickMessages": {
+        "needQuote": "أريد عرض سعر",
+        "emergency": "خدمة طارئة",
+        "schedule": "حجز موعد",
+        "question": "لدي استفسار"
+      },
+      "poweredBy": "نخدم الناظور منذ",
+      "justNow": "يتم الرد الآن"
     },
     "footer": {
-      "description": "شريكك الموثوق لجميع احتياجات التنظيف والصيانة. خدمات محترفة وموثوقة وبأسعار معقولة مع ضمان الرضا.",
+      "description": "شركتك المختصة في خدمات التنظيف والصيانة في الناظور - جودة عالية بأسعار مناسبة",
       "ourServices": "خدماتنا",
-      "contactUs": "اتصل بنا",
+      "contactUs": "تواصل معنا",
       "whatsappUs": "راسلنا على واتساب",
-      "rights": "© 2024 RepairPro. جميع الحقوق محفوظة. | مرخص ومؤمن | تقييم A+ من BBB"
+      "rights": "© 2024 جميع الحقوق محفوظة"
     }
   },
+  "fr": {
+    "nav": {
+      "home": "Accueil",
+      "services": "Nos Services",
+      "about": "À Propos",
+      "contact": "Contact",
+      "whatsapp": "Discuter sur WhatsApp"
+    },
+    "hero": {
+      "emergency": "Services Rapides 24/7 à Nador",
+      "title": "Vos Experts en",
+      "titleHighlight": "Nettoyage",
+      "titleEnd": "à Nador",
+      "subtitle": "Solutions pratiques pour particuliers et professionnels à Nador. Résultats garantis avec des",
+      "subtitleHighlight": "prix accessibles à tous",
+      "getQuote": "Obtenir un Devis Gratuit",
+      "callNow": "Urgence"
+    },
+    "services": {
+      "showall": "Afficher Tous les Services",
+      "title": "Nos Services",
+      "titleHighlight": "Professionnels",
+      "titleEnd": "et Fiables",
+      "subtitle": "Services de qualité avec des équipes formées et des années d'expérience à Nador",
+      "subtitleHighlight": "Nous utilisons des produits de nettoyage haut de gamme",
+      "homeCleaning": {
+        "title": "Nettoyage Résidentiel",
+        "desc": "Service complet pour tous types d'appartements et villas à Nador",
+        "features": [
+          "Nettoyage approfondi des pièces",
+          "Désinfection des cuisines et salles de bain",
+          "Nettoyage des fenêtres et balcons",
+          "Nettoyage post-travaux",
+          "Horaires flexibles",
+          "Produits sans danger pour la famille",
+          "Tarifs adaptés à votre budget"
+        ],
+        "whatsapp": "Je besoin de nettoyage résidentiel à Nador"
+      },
+      "hotelCleaning": {
+        "title": "Nettoyage Hôtelier",
+        "desc": "Services quotidiens respectant les normes d'hygiène",
+        "features": [
+          "Nettoyage chambre par chambre",
+          "Entretien des espaces communs",
+          "Service rapide et de qualité",
+          "Équipe spécialisée",
+          "Tarifs compétitifs pour hôtels",
+          "Solutions sur mesure"
+        ],
+        "whatsapp": "Je besoin de nettoyage hôtelier à Nador"
+      },
+      "clinicCleaning": {
+        "title": "Nettoyage Médical",
+        "desc": "Services de désinfection professionnelle",
+        "features": [
+          "Stérilisation complète",
+          "Soin particulier aux salles de soins",
+          "Service rapide et précis",
+          "Équipe formée à l'hygiène médicale",
+          "Tarifs adaptés aux cliniques",
+          "Disponibilité 24/7"
+        ],
+        "whatsapp": "Je besoin de nettoyage médical à Nador"
+      },
+      "officeCleaning": {
+        "title": "Nettoyage de Bureaux",
+        "desc": "Solutions pratiques pour entreprises",
+        "features": [
+          "Service quotidien/hebdomadaire",
+          "Nettoyage après les heures de travail",
+          "Nettoyage complet des espaces",
+          "Tarifs préférentiels entreprises",
+          "Équipe discrète et silencieuse",
+          "Sans perturbation de votre travail"
+        ],
+        "whatsapp": "Je besoin de nettoyage de bureaux à Nador"
+      },
+      "buildingCleaning": {
+        "title": "Entretien des Immeubles",
+        "desc": "Solutions complètes pour résidences",
+        "features": [
+          "Nettoyage des halls et escaliers",
+          "Maintenance des ascenseurs",
+          "Évacuation régulière des déchets",
+          "Tarifs compétitifs pour résidences",
+          "Service rapide et efficace",
+          "Équipe toujours disponible"
+        ],
+        "whatsapp": "Je besoin de nettoyage d'immeuble à Nador"
+      },
+      "elevatorMaintenance": {
+        "title": "Maintenance d'Ascenseurs",
+        "desc": "Réparations rapides et pratiques",
+        "features": [
+          "Inspection complète",
+          "Dépannage immédiat",
+          "Pièces détachées disponibles",
+          "Tarifs compétitifs",
+          "Intervention le jour même",
+          "Techniciens expérimentés"
+        ],
+        "whatsapp": "Je besoin de maintenance d'ascenseur à Nador"
+      },
+      "electricalMaintenance": {
+        "title": "Services Électriques",
+        "desc": "Solutions sûres et rapides",
+        "features": [
+          "Réparations électriques",
+          "Installation de luminaires",
+          "Dépannage de câblage",
+          "Intervention d'urgence rapide",
+          "Tarification transparente",
+          "Travail soigné et précis"
+        ],
+        "whatsapp": "Je besoin d'un électricien à Nador"
+      },
+      "plumbingMaintenance": {
+        "title": "Plomberie",
+        "desc": "Solutions pour problèmes d'eau",
+        "features": [
+          "Réparation de fuites",
+          "Nettoyage de canalisations",
+          "Réparation de salles de bain",
+          "Service à la demande",
+          "Tarifs équitables",
+          "Garantie sur les travaux"
+        ],
+        "whatsapp": "Je besoin d'un plombier à Nador"
+      },
+      "generalMaintenance": {
+        "title": "Réparations Générales",
+        "desc": "Solutions pour tous besoins domestiques",
+        "features": [
+          "Petites et grandes réparations",
+          "Montage de meubles",
+          "Réparation de portes",
+          "Service rapide et de qualité",
+          "Tarifs abordables",
+          "Équipe polyvalente"
+        ],
+        "whatsapp": "Je besoin de réparations à domicile à Nador"
+      },
+      "receptionStaff": {
+        "title": "Services d'Accueil",
+        "desc": "Gestion professionnelle des visiteurs",
+        "features": [
+          "Interaction courtoise avec les clients",
+          "Gestion des rendez-vous",
+          "Contrôle des entrées/sorties",
+          "Tarifs adaptés aux entreprises",
+          "Équipe polie et calme",
+          "Service à long terme"
+        ],
+        "whatsapp": "Je besoin de personnel d'accueil à Nador"
+      },
+      "corporateServices": {
+        "title": "Solutions Entreprises",
+        "desc": "Plans sur mesure pour sociétés",
+        "features": [
+          "Contrats annuels/mensuels",
+          "Services complets",
+          "Tarifs entreprises",
+          "Équipe dédiée",
+          "Qualité constante",
+          "Horaires flexibles"
+        ],
+        "whatsapp": "Je besoin d'un contrat de nettoyage professionnel"
+      },
+      "supermarketCleaning": {
+        "title": "Nettoyage de Magasins",
+        "desc": "Solutions pratiques pour commerces",
+        "features": [
+          "Nettoyage des rayons et sols",
+          "Service quotidien/hebdomadaire",
+          "Tarifs compétitifs pour magasins",
+          "Équipe rapide et organisée",
+          "Nettoyage sans perturbation",
+          "Résultats visibles immédiats"
+        ],
+        "whatsapp": "Je besoin de nettoyage de magasin à Nador"
+      },
+      "syndicServices": {
+        "title": "Gestion des Résidences",
+        "desc": "Nettoyage des copropriétés",
+        "features": [
+          "Nettoyage des parties communes",
+          "Gestion des déchets",
+          "Tarifs adaptés aux budgets",
+          "Service régulier et précis",
+          "Communication directe avec résidents",
+          "Solutions durables"
+        ],
+        "whatsapp": "Je besoin de nettoyage pour ma résidence"
+      },
+      "fullSyndicManagement": {
+        "title": "Gestion Immobilière Complète",
+        "desc": "Solutions clés en main pour immeubles",
+        "features": [
+          "Coordination complète des services",
+          "Gestion des prestataires",
+          "Tarification claire et globale",
+          "Solutions sur mesure",
+          "Résultats tangibles",
+          "Équipe toujours disponible"
+        ],
+        "whatsapp": "Je besoin de gestion pour ma copropriété"
+      },
+      "whatsapp": "Discuter Maintenant",
+      "details": "Ce Que Nous Offrons :",
+      "whatsIncluded": "Avantages :",
+      "getQuote": "Obtenir un Devis",
+      "callNow": "Appeler Maintenant",
+      "startingFrom": "Prix à partir de",
+      "emergencyRate": "Service d'Urgence"
+    },
+    "stats": {
+      "happyCustomers": "Clients Satisfaits",
+      "jobsCompleted": "Projets Réalisés",
+      "yearsExperience": "Années d'Expérience",
+      "averageRating": "Évaluation Clients"
+    },
+    "contact": {
+      "title": "Comment Pouvons-Nous Vous Aider ?",
+      "subtitle": "Notre équipe est prête à vous assister à tout moment",
+      "whatsappTitle": "Discussion Directe",
+      "whatsappDesc": "Réponses rapides sur WhatsApp",
+      "whatsappBtn": "Commencer la Discussion",
+      "whatsappFeatures": "✓ Réponse instantanée ✓ Tarifs clairs ✓ Service personnalisé",
+      "phoneTitle": "Appelez-Nous Maintenant",
+      "phoneDesc": "Ligne directe avec notre équipe",
+      "phoneBtn": "Appeler ce Numéro",
+      "phoneFeatures": "✓ Service rapide ✓ Solutions pratiques ✓ Équipe professionnelle",
+      "contactInfo": "Coordonnées",
+      "emergency": "Urgence 24/7",
+      "serviceArea": "Zone d'Intervention",
+      "metroSuburbs": "Nador et Environs",
+      "workingHours": "Heures d'Ouverture",
+      "schedule": "Tous les jours de 8h à 22h",
+      "followSocial": "Suivez-Nous sur les Réseaux",
+      "beforeAfter": "Galerie de Nos Réalisations",
+      "customerUpdates": "Avis Clients",
+      "diyTips": "Conseils Utiles",
+      "followers": "Abonnés",
+      "likes": "J'aimes"
+    },
+    "whatsappModal": {
+      "title": "Discussion en Direct",
+      "subtitle": "Notre équipe est prête à vous aider",
+      "support": "Service Client",
+      "onlineNow": "En Ligne Maintenant",
+      "defaultMessage": "Bonjour, comment pouvons-nous vous aider ?",
+      "placeholder": "Tapez votre message ici...",
+      "startChat": "Envoyer",
+      "quickMessages": {
+        "needQuote": "Je besoin d'un devis",
+        "emergency": "Service d'urgence",
+        "schedule": "Prendre rendez-vous",
+        "question": "J'ai une question"
+      },
+      "poweredBy": "Au service de Nador depuis",
+      "justNow": "En train de répondre"
+    },
+    "footer": {
+      "description": "Vos experts en nettoyage et maintenance à Nador - qualité professionnelle à prix équitables",
+      "ourServices": "Nos Services",
+      "contactUs": "Contactez-Nous",
+      "whatsappUs": "Discuter sur WhatsApp",
+      "rights": "© 2024 Tous Droits Réservés"
+    }
+  },
+  "es": {
+    "nav": {
+      "home": "Inicio",
+      "services": "Nuestros Servicios",
+      "about": "Sobre Nosotros",
+      "contact": "Contacto",
+      "whatsapp": "Chatear por WhatsApp"
+    },
+    "hero": {
+      "emergency": "Servicios Rápidos 24/7 en Nador",
+      "title": "Tus Expertos en",
+      "titleHighlight": "Limpieza",
+      "titleEnd": "en Nador",
+      "subtitle": "Soluciones prácticas para hogares y negocios en Nador. Resultados garantizados con",
+      "subtitleHighlight": "precios accesibles para todos",
+      "getQuote": "Obtener Presupuesto Gratis",
+      "callNow": "Emergencias"
+    },
+    "services": {
+      "showall": "Ver Todos los Servicios",
+      "title": "Nuestros Servicios",
+      "titleHighlight": "Profesionales",
+      "titleEnd": "y Confiables",
+      "subtitle": "Servicios de calidad con equipos capacitados y años de experiencia en Nador",
+      "subtitleHighlight": "Utilizamos productos de limpieza de primera calidad",
+      "homeCleaning": {
+        "title": "Limpieza Residencial",
+        "desc": "Servicio completo para todo tipo de apartamentos y villas en Nador",
+        "features": [
+          "Limpieza profunda de habitaciones",
+          "Desinfección de cocinas y baños",
+          "Limpieza de ventanas y balcones",
+          "Limpieza post-construcción",
+          "Horarios flexibles",
+          "Productos seguros para familias",
+          "Precios adaptados a tu presupuesto"
+        ],
+        "whatsapp": "Necesito limpieza residencial en Nador"
+      },
+      "hotelCleaning": {
+        "title": "Limpieza Hotelera",
+        "desc": "Servicios diarios que mantienen los estándares de higiene",
+        "features": [
+          "Limpieza habitación por habitación",
+          "Mantenimiento de áreas comunes",
+          "Servicio rápido y de calidad",
+          "Equipo especializado",
+          "Precios competitivos para hoteles",
+          "Soluciones a medida"
+        ],
+        "whatsapp": "Necesito limpieza hotelera en Nador"
+      },
+      "clinicCleaning": {
+        "title": "Limpieza Médica",
+        "desc": "Servicios de desinfección profesionales",
+        "features": [
+          "Esterilización completa",
+          "Cuidado especial de salas de tratamiento",
+          "Servicio rápido y preciso",
+          "Equipo capacitado en higiene médica",
+          "Precios adaptados a clínicas",
+          "Disponibilidad 24/7"
+        ],
+        "whatsapp": "Necesito limpieza médica en Nador"
+      },
+      "officeCleaning": {
+        "title": "Limpieza de Oficinas",
+        "desc": "Soluciones prácticas para empresas",
+        "features": [
+          "Servicio diario/semanal",
+          "Limpieza después del horario laboral",
+          "Limpieza completa de espacios",
+          "Precios especiales para empresas",
+          "Equipo discreto y silencioso",
+          "Sin interrupciones a tu trabajo"
+        ],
+        "whatsapp": "Necesito limpieza de oficinas en Nador"
+      },
+      "buildingCleaning": {
+        "title": "Mantenimiento de Edificios",
+        "desc": "Soluciones completas para residencias",
+        "features": [
+          "Limpieza de vestíbulos y escaleras",
+          "Mantenimiento de ascensores",
+          "Eliminación regular de residuos",
+          "Precios competitivos para residencias",
+          "Servicio rápido y eficiente",
+          "Equipo siempre disponible"
+        ],
+        "whatsapp": "Necesito limpieza de edificio en Nador"
+      },
+      "elevatorMaintenance": {
+        "title": "Mantenimiento de Ascensores",
+        "desc": "Reparaciones rápidas y prácticas",
+        "features": [
+          "Inspección completa",
+          "Reparaciones inmediatas",
+          "Piezas de repuesto disponibles",
+          "Precios competitivos",
+          "Servicio el mismo día",
+          "Técnicos experimentados"
+        ],
+        "whatsapp": "Necesito mantenimiento de ascensor en Nador"
+      },
+      "electricalMaintenance": {
+        "title": "Servicios Eléctricos",
+        "desc": "Soluciones seguras y rápidas",
+        "features": [
+          "Reparaciones eléctricas",
+          "Instalación de luminarias",
+          "Reparación de cableado",
+          "Respuesta rápida a emergencias",
+          "Precios transparentes",
+          "Trabajo limpio y preciso"
+        ],
+        "whatsapp": "Necesito un electricista en Nador"
+      },
+      "plumbingMaintenance": {
+        "title": "Fontanería",
+        "desc": "Soluciones para problemas de agua",
+        "features": [
+          "Reparación de fugas",
+          "Limpieza de tuberías",
+          "Reparación de baños",
+          "Servicio bajo demanda",
+          "Precios justos",
+          "Garantía en el trabajo"
+        ],
+        "whatsapp": "Necesito un fontanero en Nador"
+      },
+      "generalMaintenance": {
+        "title": "Reparaciones Generales",
+        "desc": "Soluciones para todas las necesidades del hogar",
+        "features": [
+          "Pequeñas y grandes reparaciones",
+          "Ensamblaje de muebles",
+          "Reparación de puertas",
+          "Servicio rápido y de calidad",
+          "Precios asequibles",
+          "Equipo multifuncional"
+        ],
+        "whatsapp": "Necesito reparaciones en casa en Nador"
+      },
+      "receptionStaff": {
+        "title": "Servicios de Recepción",
+        "desc": "Gestión profesional de visitantes",
+        "features": [
+          "Interacción cortés con clientes",
+          "Gestión de citas",
+          "Control de entradas/salidas",
+          "Precios adaptados a empresas",
+          "Equipo educado y tranquilo",
+          "Servicio a largo plazo"
+        ],
+        "whatsapp": "Necesito personal de recepción en Nador"
+      },
+      "corporateServices": {
+        "title": "Soluciones Empresariales",
+        "desc": "Planes personalizados para empresas",
+        "features": [
+          "Contratos anuales/mensuales",
+          "Servicios completos",
+          "Precios para empresas",
+          "Equipo dedicado",
+          "Calidad consistente",
+          "Horarios flexibles"
+        ],
+        "whatsapp": "Necesito un contrato de limpieza profesional"
+      },
+      "supermarketCleaning": {
+        "title": "Limpieza de Tiendas",
+        "desc": "Soluciones prácticas para comercios",
+        "features": [
+          "Limpieza de estantes y suelos",
+          "Servicio diario/semanal",
+          "Precios competitivos para tiendas",
+          "Equipo rápido y organizado",
+          "Limpieza sin interrupciones",
+          "Resultados visibles al instante"
+        ],
+        "whatsapp": "Necesito limpieza de tienda en Nador"
+      },
+      "syndicServices": {
+        "title": "Gestión de Residencias",
+        "desc": "Limpieza de comunidades de vecinos",
+        "features": [
+          "Limpieza de áreas comunes",
+          "Gestión de residuos",
+          "Precios adaptados a presupuestos",
+          "Servicio regular y preciso",
+          "Comunicación directa con residentes",
+          "Soluciones duraderas"
+        ],
+        "whatsapp": "Necesito limpieza para mi residencia"
+      },
+      "fullSyndicManagement": {
+        "title": "Gestión Inmobiliaria Completa",
+        "desc": "Soluciones llave en mano para edificios",
+        "features": [
+          "Coordinación completa de servicios",
+          "Gestión de proveedores",
+          "Precios claros y globales",
+          "Soluciones personalizadas",
+          "Resultados tangibles",
+          "Equipo siempre disponible"
+        ],
+        "whatsapp": "Necesito gestión para mi comunidad"
+      },
+      "whatsapp": "Chatear Ahora",
+      "details": "Lo Que Ofrecemos:",
+      "whatsIncluded": "Beneficios:",
+      "getQuote": "Obtener Presupuesto",
+      "callNow": "Llamar Ahora",
+      "startingFrom": "Precios desde",
+      "emergencyRate": "Servicio de Emergencia"
+    },
+    "stats": {
+      "happyCustomers": "Clientes Satisfechos",
+      "jobsCompleted": "Proyectos Completados",
+      "yearsExperience": "Años de Experiencia",
+      "averageRating": "Valoración de Clientes"
+    },
+    "contact": {
+      "title": "¿Cómo Podemos Ayudarte?",
+      "subtitle": "Nuestro equipo está listo para asistirte en cualquier momento",
+      "whatsappTitle": "Chat Directo",
+      "whatsappDesc": "Respuestas rápidas por WhatsApp",
+      "whatsappBtn": "Iniciar Chat",
+      "whatsappFeatures": "✓ Respuesta instantánea ✓ Precios claros ✓ Servicio personalizado",
+      "phoneTitle": "Llámanos Ahora",
+      "phoneDesc": "Línea directa con nuestro equipo",
+      "phoneBtn": "Llamar a este Número",
+      "phoneFeatures": "✓ Servicio rápido ✓ Soluciones prácticas ✓ Equipo profesional",
+      "contactInfo": "Información de Contacto",
+      "emergency": "Emergencias 24/7",
+      "serviceArea": "Área de Servicio",
+      "metroSuburbs": "Nador y Alrededores",
+      "workingHours": "Horario de Trabajo",
+      "schedule": "Todos los días de 8h a 22h",
+      "followSocial": "Síguenos en Redes",
+      "beforeAfter": "Galería de Nuestros Trabajos",
+      "customerUpdates": "Opiniones de Clientes",
+      "diyTips": "Consejos Útiles",
+      "followers": "Seguidores",
+      "likes": "Me gustas"
+    },
+    "whatsappModal": {
+      "title": "Chat en Directo",
+      "subtitle": "Nuestro equipo está listo para ayudarte",
+      "support": "Servicio al Cliente",
+      "onlineNow": "En Línea Ahora",
+      "defaultMessage": "Hola, ¿cómo podemos ayudarte?",
+      "placeholder": "Escribe tu mensaje aquí...",
+      "startChat": "Enviar",
+      "quickMessages": {
+        "needQuote": "Necesito un presupuesto",
+        "emergency": "Servicio de emergencia",
+        "schedule": "Agendar cita",
+        "question": "Tengo una pregunta"
+      },
+      "poweredBy": "Sirviendo a Nador desde",
+      "justNow": "Respondiendo ahora"
+    },
+    "footer": {
+      "description": "Tus expertos en limpieza y mantenimiento en Nador - calidad profesional a precios justos",
+      "ourServices": "Nuestros Servicios",
+      "contactUs": "Contáctanos",
+      "whatsappUs": "Chatear por WhatsApp",
+      "rights": "© 2024 Todos los Derechos Reservados"
+    }
+  }
 }

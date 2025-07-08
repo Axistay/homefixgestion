@@ -24,33 +24,24 @@ import {
 } from "react-icons/fa"
 import { useLanguage } from "../hooks/useLanguage.jsx"
 import { FaElevator } from "react-icons/fa6"
+import { useNavigate } from "react-router-dom"
 
-function Services({ onWhatsAppClick }) {
+function Services({ onWhatsAppClick , number  }) {
   const [selectedService, setSelectedService] = useState(null)
   const { t, isRTL } = useLanguage()
+  const navigate = useNavigate();
 
   const services = [
     {
-      id: "apartmentCleaning",
-      img: "https://nextdaycleaning.com/wp-content/uploads/2019/10/apartment-cleaning-hero-iamge-1024x699.jpg",
-      icon: <FaHome className="text-6xl text-blue-600" />,
-      title: t("services.apartmentCleaning.title"),
-      description: t("services.apartmentCleaning.desc"),
-      features: t("services.apartmentCleaning.features"),
-      price: `${t("services.startingFrom")} $89`,
-      rating: 4.9,
-      whatsappMessage: t("services.apartmentCleaning.whatsapp"),
-    },
-    {
-      id: "villaCleaning",
+      id: "homeCleaning",
       img: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-      icon: <FaBuilding className="text-6xl text-green-600" />,
-      title: t("services.villaCleaning.title"),
-      description: t("services.villaCleaning.desc"),
-      features: t("services.villaCleaning.features"),
-      price: `${t("services.startingFrom")} $150`,
+      icon: <FaHome className="text-6xl text-blue-600" />, // Use FaHome or a combined icon
+      title: t("services.homeCleaning.title"),
+      description: t("services.homeCleaning.desc"),
+      features: t("services.homeCleaning.features"),
+      price: `${t("services.startingFrom")} $99`,
       rating: 4.9,
-      whatsappMessage: t("services.villaCleaning.whatsapp"),
+      whatsappMessage: t("services.homeCleaning.whatsapp"),
     },
     {
       id: "hotelCleaning",
@@ -161,18 +152,7 @@ function Services({ onWhatsAppClick }) {
       price: `${t("services.startingFrom")} $300/day`,
       rating: 4.8,
       whatsappMessage: t("services.supermarketCleaning.whatsapp"),
-    },
-    {
-      id: "syndicServices",
-      img: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-      icon: <FaUsers className="text-6xl text-teal-600" />,
-      title: t("services.syndicServices.title"),
-      description: t("services.syndicServices.desc"),
-      features: t("services.syndicServices.features"),
-      price: `${t("services.startingFrom")} $400/month`,
-      rating: 4.9,
-      whatsappMessage: t("services.syndicServices.whatsapp"),
-    },
+    }, 
     {
       id: "fullSyndicManagement",
       img: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
@@ -202,7 +182,7 @@ function Services({ onWhatsAppClick }) {
 
         {/* Services Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {services.map((service, index) => (
+          {services?.slice(0, number).map((service, index) => (
             <div
               key={service.id}
               className="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 cursor-pointer border border-gray-100"
@@ -269,6 +249,18 @@ function Services({ onWhatsAppClick }) {
             </div>
           ))}
         </div>
+
+        {/* Show All Button */}
+        {typeof number === 'number' && number !== null && (
+          <div className="text-center mt-8">
+            <button
+              onClick={() => navigate('/services')}
+              className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 rounded-xl font-bold shadow-lg hover:from-blue-700 hover:to-blue-800 transition-all duration-300 text-lg"
+            >
+              {t("services.showall")}
+            </button>
+          </div>
+        )}
       </div>
 
       {/* Service Detail Modal */}

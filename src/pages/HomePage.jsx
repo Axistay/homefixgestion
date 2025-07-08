@@ -8,7 +8,7 @@ function HomePage() {
     <Layout>
       <div>
         <Hero />
-        <Services />
+        <Services number={3} />
         <Contact />
       </div>
     </Layout>

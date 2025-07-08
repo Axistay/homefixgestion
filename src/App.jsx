@@ -5,11 +5,25 @@ import ServicesPage from "./pages/ServicesPage.jsx"
 import ContactPage from "./pages/ContactPage.jsx"
 import AboutPage from "./pages/AboutPage.jsx"
 import NotFoundPage from "./pages/NotFoundPage.jsx"
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 function App() {
   return (
     <LanguageProvider>
       <Router>
+        <ScrollToTop />
         <div className="min-h-screen bg-white overflow-x-hidden">
           <Routes>
             <Route path="/" element={<HomePage />} />
@@ -25,3 +39,7 @@ function App() {
 }
 
 export default App
+
+
+
+
