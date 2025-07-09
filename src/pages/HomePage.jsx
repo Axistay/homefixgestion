@@ -5,13 +5,19 @@ import Contact from "../components/Contact.jsx"
 
 function HomePage({ onWhatsAppClick }) {
   return (
-    <Layout>
-      <div>
-        <Hero />
-        <Services number={3} onWhatsAppClick={onWhatsAppClick} />
-        <Contact onWhatsAppClick={onWhatsAppClick} />
-      </div>
-    </Layout>
+    <>
+    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-teal-300 to-blue-500">
+    <h1 className="text-2xl font-bold">Coming soon 😍😎</h1>
+
+    </div>
+    </>
+    // <Layout>
+    //   <div>
+    //     <Hero />
+    //     <Services number={3} onWhatsAppClick={onWhatsAppClick} />
+    //     <Contact onWhatsAppClick={onWhatsAppClick} />
+    //   </div>
+    // </Layout>
   )
 }
 
