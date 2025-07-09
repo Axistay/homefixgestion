@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom"
 import { FaTools, FaPhone, FaWhatsapp, FaInstagram, FaFacebook, FaTiktok } from "react-icons/fa"
 import { useLanguage } from "../hooks/useLanguage.jsx"
-
+import logo from '../../public/logo.png'
 function Footer({ onWhatsAppClick, onSocialMediaClick }) {
   const { t, isRTL } = useLanguage()
 
@@ -18,21 +18,28 @@ function Footer({ onWhatsAppClick, onSocialMediaClick }) {
   return (
     <footer className="bg-gray-800 text-white py-16">
       <div className="container mx-auto px-4">
-        <div className={`grid grid-cols-1 md:grid-cols-3 gap-12 ${isRTL ? "rtl" : ""}`}>
+        <div className={`grid grid-cols-1 md:grid-cols-3 gap-12 `}>
           {/* Company Info */}
           <div className={isRTL ? "text-right" : "text-left"}>
-            <Link
-              to="/"
-              className={`flex items-center space-x-3 mb-6 ${isRTL ? "space-x-reverse flex-row-reverse" : ""}`}
-            >
-              <FaTools className="text-3xl text-blue-400" />
-              <div>
-                <span className="text-2xl font-bold">RepairPro</span>
-                <div className="text-sm text-gray-300">Professional Home Services</div>
-              </div>
-            </Link>
+          <Link to="/" className={`flex items-center space-x-2 sm:space-x-3 flex-shrink-0 `}  dir="ltr">
+            <div className="relative">
+              <img 
+                src={logo}
+                alt="Homefix Gestion Logo" 
+                className="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 lg:h-16 lg:w-16 rounded-full object-cover shadow-md   transition-all duration-300 hover:scale-105" 
+              />
+            </div>
+            <div className="flex flex-col">
+              <h1 className="jsm:text-lg xl:text-xl font-bold text-teal-600 leading-tight whitespace-nowrap">
+                Homefix Gestion
+              </h1>
+              <span className="text-xs text-gray-600 font-medium hidden sm:block">
+                Home Services
+              </span>
+            </div>
+          </Link>
             <p className="text-gray-300 mb-6 leading-relaxed text-lg">{t("footer.description")}</p>
-            <div className={`flex space-x-4 ${isRTL ? "space-x-reverse flex-row-reverse" : ""}`}>
+            <div className={`flex  gap-4 `}>
               <button
                 onClick={() => onSocialMediaClick("instagram")}
                 className="text-gray-300 hover:text-pink-400 transition-all duration-300 hover:scale-125"
@@ -76,7 +83,7 @@ function Footer({ onWhatsAppClick, onSocialMediaClick }) {
             <h3 className="text-2xl font-bold mb-6">{t("footer.contactUs")}</h3>
             <div className="space-y-4">
               <div
-                className={`flex items-center space-x-3 hover:text-blue-400 transition-colors duration-300 ${isRTL ? "space-x-reverse flex-row-reverse" : ""}`}
+                className={`flex items-center space-x-3 hover:text-blue-400 transition-colors duration-300  `}
               >
                 <FaPhone className="text-blue-400 text-xl" />
                 <span className="text-gray-300 text-lg">(0684679961)</span>

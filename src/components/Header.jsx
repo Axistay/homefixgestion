@@ -33,11 +33,11 @@ function Header({ onWhatsAppClick, onCallClick }) {
               <img 
                 src={logo}
                 alt="Homefix Gestion Logo" 
-                className="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 lg:h-16 lg:w-16 rounded-full object-cover shadow-md   transition-all duration-300 hover:scale-105" 
+                className="h-12 w-12 sm:h-10 sm:w-10 md:h-12 md:w-12 lg:h-16 lg:w-16 rounded-full object-cover shadow-md   transition-all duration-300 hover:scale-105" 
               />
             </div>
             <div className="flex flex-col">
-              <h1 className="jsm:text-lg xl:text-xl font-bold text-teal-600 leading-tight whitespace-nowrap">
+              <h1 className="sm:text-2xl xl:text-xl font-bold text-teal-600 leading-tight whitespace-nowrap">
                 Homefix Gestion
               </h1>
               <span className="text-xs text-gray-600 font-medium hidden sm:block">

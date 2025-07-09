@@ -213,7 +213,25 @@ export const translations = {
       "getQuote": "Get Pricing",
       "callNow": "Call Now",
       "startingFrom": "Prices start from",
-      "emergencyRate": "Emergency Service"
+      "emergencyRate": "Emergency Service",
+      "painting": {
+        "title": "Painting Services"
+      },
+      "bathroom": {
+        "title": "Bathroom Services"
+      },
+      "emergency": {
+        "title": "Emergency Services"
+      },
+      "electrical": {
+        "title": "Electrical Services"
+      },
+      "general": {
+        "title": "General Repairs"
+      },
+      "plumbing": {
+        "title": "Plumbing Services"
+      }
     },
     "stats": {
       "happyCustomers": "Happy Clients",
@@ -268,6 +286,44 @@ export const translations = {
       "contactUs": "Contact Us",
       "whatsappUs": "Chat on WhatsApp",
       "rights": "© 2024 All Rights Reserved"
+    },
+    about: {
+      title: "About",
+      subtitle: "Your trusted partner for all home maintenance and repair needs. We bring professional expertise and reliable service to every project.",
+      storyTitle: "Our Story",
+      story1: "Founded in 2024, Homefix Gestion is a new and dynamic company dedicated to serving the community with excellence and innovation. What started as a vision to provide exceptional home maintenance services has quickly become a trusted name in the industry.",
+      story2: "Our team of skilled professionals is committed to providing high-quality workmanship and exceptional customer service. We understand that your home is your most valuable asset, and we treat it with the care and respect it deserves.",
+      story3: "From minor repairs to major renovations, we handle every project with precision and attention to detail. Our goal is to exceed your expectations and ensure your complete satisfaction with every service we provide.",
+      
+      stats: {
+        experience: "Months Experience",
+        customers: "Happy Customers",
+        jobs: "Jobs Completed",
+        rating: "Average Rating"
+      },
+      
+      features: {
+        expert: "Expert Team",
+        expertDesc: "Our skilled professionals have years of experience in all aspects of home maintenance and repair services.",
+        
+        quality: "Quality Guaranteed",
+        qualityDesc: "We stand behind our work with comprehensive warranties and guarantee the highest quality standards.",
+        
+        equipment: "Modern Equipment",
+        equipmentDesc: "We use the latest tools and equipment to ensure efficient and professional results for every project.",
+        
+        care: "Customer Care",
+        careDesc: "Your satisfaction is our priority. We provide personalized service and support throughout every project.",
+        
+        insured: "Fully Insured",
+        insuredDesc: "We are fully licensed and insured for your peace of mind and protection on every job.",
+        
+        emergency: "Emergency Service",
+        emergencyDesc: "Available 24/7 for urgent repairs and emergency situations when you need us most."
+      },
+      
+      missionTitle: "Our Mission",
+      missionText: "To provide exceptional home maintenance and repair services that enhance the comfort, safety, and value of your home. We are committed to building lasting relationships with our clients through honest communication, reliable service, and superior craftsmanship."
     }
   },
   "ar": {
@@ -484,7 +540,25 @@ export const translations = {
       "getQuote": "اطلب عرض السعر",
       "callNow": "اتصل فوراً",
       "startingFrom": "الأسعار تبدأ من",
-      "emergencyRate": "خدمة الطوارئ"
+      "emergencyRate": "خدمة الطوارئ",
+      "painting": {
+        "title": "خدمات الدهان"
+      },
+      "bathroom": {
+        "title": "خدمات الحمام"
+      },
+      "emergency": {
+        "title": "خدمات الطوارئ"
+      },
+      "electrical": {
+        "title": "الخدمات الكهربائية"
+      },
+      "general": {
+        "title": "إصلاحات عامة"
+      },
+      "plumbing": {
+        "title": "خدمات السباكة"
+      }
     },
     "stats": {
       "happyCustomers": "عملاء سعداء",
@@ -539,6 +613,44 @@ export const translations = {
       "contactUs": "تواصل معنا",
       "whatsappUs": "راسلنا على واتساب",
       "rights": "© 2024 جميع الحقوق محفوظة"
+    },
+    about: {
+      title: "من نحن",
+      subtitle: "شريكك الموثوق لجميع احتياجات صيانة وإصلاح المنزل. نحن نقدم الخبرة المهنية والخدمة الموثوقة لكل مشروع.",
+      storyTitle: "قصتنا",
+      story1: "تأسست شركة Homefix Gestion في عام 2024، وهي شركة جديدة وديناميكية مكرسة لخدمة المجتمع بتميز وابتكار. ما بدأ كرؤية لتقديم خدمات صيانة منزلية استثنائية أصبح بسرعة اسمًا موثوقًا في الصناعة.",
+      story2: "فريقنا من المهنيين المهرة ملتزم بتقديم أعمال عالية الجودة وخدمة عملاء استثنائية. نحن نفهم أن منزلك هو أثمن ممتلكاتك، ونتعامل معه بالعناية والاحترام الذي يستحقه.",
+      story3: "من الإصلاحات الطفيفة إلى التجديدات الكبيرة، نتعامل مع كل مشروع بدقة وانتباه للتفاصيل. هدفنا هو تجاوز توقعاتك وضمان رضاك التام مع كل خدمة نقدمها.",
+      
+      stats: {
+        experience: "أشهر الخبرة",
+        customers: "عملاء راضون",
+        jobs: "أعمال مكتملة",
+        rating: "متوسط التقييم"
+      },
+      
+      features: {
+        expert: "فريق خبراء",
+        expertDesc: "مهنيونا المهرة لديهم سنوات من الخبرة في جميع جوانب خدمات صيانة وإصلاح المنازل.",
+        
+        quality: "جودة مضمونة",
+        qualityDesc: "نحن نؤيد عملنا بضمانات شاملة ونضمن أعلى معايير الجودة.",
+        
+        equipment: "معدات حديثة",
+        equipmentDesc: "نستخدم أحدث الأدوات والمعدات لضمان نتائج فعالة ومهنية لكل مشروع.",
+        
+        care: "رعاية العملاء",
+        careDesc: "رضاك هو أولويتنا. نقدم خدمة شخصية ودعم طوال كل مشروع.",
+        
+        insured: "مؤمن بالكامل",
+        insuredDesc: "نحن مرخصون ومؤمنون بالكامل لراحة بالك وحمايتك في كل عمل.",
+        
+        emergency: "خدمة الطوارئ",
+        emergencyDesc: "متاح 24/7 للإصلاحات العاجلة وحالات الطوارئ عندما تحتاج إلينا أكثر."
+      },
+      
+      missionTitle: "مهمتنا",
+      missionText: "تقديم خدمات استثنائية لصيانة وإصلاح المنازل التي تعزز من راحة وأمان وقيمة منزلك. نحن ملتزمون ببناء علاقات دائمة مع عملائنا من خلال التواصل الصادق والخدمة الموثوقة والحرفية المتفوقة."
     }
   },
   "fr": {
@@ -755,7 +867,25 @@ export const translations = {
       "getQuote": "Obtenir un Devis",
       "callNow": "Appeler Maintenant",
       "startingFrom": "Prix à partir de",
-      "emergencyRate": "Service d'Urgence"
+      "emergencyRate": "Service d'Urgence",
+      "painting": {
+        "title": "Services de Peinture"
+      },
+      "bathroom": {
+        "title": "Services de Salle de Bain"
+      },
+      "emergency": {
+        "title": "Services d'Urgence"
+      },
+      "electrical": {
+        "title": "Services Électriques"
+      },
+      "general": {
+        "title": "Réparations Générales"
+      },
+      "plumbing": {
+        "title": "Plomberie"
+      }
     },
     "stats": {
       "happyCustomers": "Clients Satisfaits",
@@ -810,6 +940,44 @@ export const translations = {
       "contactUs": "Contactez-Nous",
       "whatsappUs": "Discuter sur WhatsApp",
       "rights": "© 2024 Tous Droits Réservés"
+    },
+    about: {
+      title: "À Propos",
+      subtitle: "Votre partenaire de confiance pour tous vos besoins d'entretien et de réparation domiciliaire. Nous apportons une expertise professionnelle et un service fiable à chaque projet.",
+      storyTitle: "Notre Histoire",
+      story1: "Fondée en 2024, Homefix Gestion est une entreprise nouvelle et dynamique dédiée à servir la communauté avec excellence et innovation. Ce qui a commencé comme une vision de fournir des services d'entretien domiciliaire exceptionnels est rapidement devenu un nom de confiance dans l'industrie.",
+      story2: "Notre équipe de professionnels qualifiés s'engage à fournir un travail de haute qualité et un service client exceptionnel. Nous comprenons que votre maison est votre bien le plus précieux, et nous la traitons avec le soin et le respect qu'elle mérite.",
+      story3: "Des réparations mineures aux rénovations majeures, nous gérons chaque projet avec précision et attention aux détails. Notre objectif est de dépasser vos attentes et d'assurer votre satisfaction complète avec chaque service que nous fournissons.",
+      
+      stats: {
+        experience: "Mois d'Expérience",
+        customers: "Clients Satisfaits",
+        jobs: "Travaux Terminés",
+        rating: "Note Moyenne"
+      },
+      
+      features: {
+        expert: "Équipe Experte",
+        expertDesc: "Nos professionnels qualifiés ont des années d'expérience dans tous les aspects des services d'entretien et de réparation domiciliaire.",
+        
+        quality: "Qualité Garantie",
+        qualityDesc: "Nous soutenons notre travail avec des garanties complètes et garantissons les normes de qualité les plus élevées.",
+        
+        equipment: "Équipement Moderne",
+        equipmentDesc: "Nous utilisons les outils et équipements les plus récents pour assurer des résultats efficaces et professionnels pour chaque projet.",
+        
+        care: "Service Client",
+        careDesc: "Votre satisfaction est notre priorité. Nous fournissons un service personnalisé et un support tout au long de chaque projet.",
+        
+        insured: "Entièrement Assuré",
+        insuredDesc: "Nous sommes entièrement licenciés et assurés pour votre tranquillité d'esprit et protection sur chaque travail.",
+        
+        emergency: "Service d'Urgence",
+        emergencyDesc: "Disponible 24h/24 et 7j/7 pour les réparations urgentes et situations d'urgence quand vous en avez le plus besoin."
+      },
+      
+      missionTitle: "Notre Mission",
+      missionText: "Fournir des services exceptionnels d'entretien et de réparation domiciliaire qui améliorent le confort, la sécurité et la valeur de votre maison. Nous nous engageons à construire des relations durables avec nos clients grâce à une communication honnête, un service fiable et un savoir-faire supérieur."
     }
   },
   "es": {
@@ -1026,7 +1194,25 @@ export const translations = {
       "getQuote": "Obtener Presupuesto",
       "callNow": "Llamar Ahora",
       "startingFrom": "Precios desde",
-      "emergencyRate": "Servicio de Emergencia"
+      "emergencyRate": "Servicio de Emergencia",
+      "painting": {
+        "title": "Servicios de Pintura"
+      },
+      "bathroom": {
+        "title": "Servicios de Baño"
+      },
+      "emergency": {
+        "title": "Servicios de Emergencia"
+      },
+      "electrical": {
+        "title": "Servicios Eléctricos"
+      },
+      "general": {
+        "title": "Reparaciones Generales"
+      },
+      "plumbing": {
+        "title": "Fontanería"
+      }
     },
     "stats": {
       "happyCustomers": "Clientes Satisfechos",
@@ -1081,6 +1267,44 @@ export const translations = {
       "contactUs": "Contáctanos",
       "whatsappUs": "Chatear por WhatsApp",
       "rights": "© 2024 Todos los Derechos Reservados"
+    },
+    about: {
+      title: "Acerca de",
+      subtitle: "Tu socio de confianza para todas las necesidades de mantenimiento y reparación del hogar. Aportamos experiencia profesional y servicio confiable a cada proyecto.",
+      storyTitle: "Nuestra Historia",
+      story1: "Fundada en 2024, Homefix Gestion es una empresa nueva y dinámica dedicada a servir a la comunidad con excelencia e innovación. Lo que comenzó como una visión de proporcionar servicios excepcionales de mantenimiento del hogar se ha convertido rápidamente en un nombre de confianza en la industria.",
+      story2: "Nuestro equipo de profesionales capacitados se compromete a proporcionar trabajo de alta calidad y servicio al cliente excepcional. Entendemos que tu hogar es tu activo más valioso, y lo tratamos con el cuidado y respeto que merece.",
+      story3: "Desde reparaciones menores hasta renovaciones importantes, manejamos cada proyecto con precisión y atención al detalle. Nuestro objetivo es superar tus expectativas y asegurar tu completa satisfacción con cada servicio que proporcionamos.",
+      
+      stats: {
+        experience: "Meses de Experiencia",
+        customers: "Clientes Satisfechos",
+        jobs: "Trabajos Completados",
+        rating: "Calificación Promedio"
+      },
+      
+      features: {
+        expert: "Equipo Experto",
+        expertDesc: "Nuestros profesionales capacitados tienen años de experiencia en todos los aspectos de servicios de mantenimiento y reparación del hogar.",
+        
+        quality: "Calidad Garantizada",
+        qualityDesc: "Respaldamos nuestro trabajo con garantías integrales y garantizamos los más altos estándares de calidad.",
+        
+        equipment: "Equipo Moderno",
+        equipmentDesc: "Utilizamos las herramientas y equipos más recientes para asegurar resultados eficientes y profesionales para cada proyecto.",
+        
+        care: "Atención al Cliente",
+        careDesc: "Tu satisfacción es nuestra prioridad. Proporcionamos servicio personalizado y soporte durante todo el proyecto.",
+        
+        insured: "Completamente Asegurado",
+        insuredDesc: "Estamos completamente licenciados y asegurados para tu tranquilidad y protección en cada trabajo.",
+        
+        emergency: "Servicio de Emergencia",
+        emergencyDesc: "Disponible 24/7 para reparaciones urgentes y situaciones de emergencia cuando más nos necesitas."
+      },
+      
+      missionTitle: "Nuestra Misión",
+      missionText: "Proporcionar servicios excepcionales de mantenimiento y reparación del hogar que mejoren la comodidad, seguridad y valor de tu hogar. Estamos comprometidos a construir relaciones duraderas con nuestros clientes a través de comunicación honesta, servicio confiable y artesanía superior."
     }
   }
 }
