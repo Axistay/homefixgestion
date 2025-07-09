@@ -82,14 +82,11 @@ function WhatsAppChatModal({ isOpen, onClose, onStartChat, customMessage = "Hi t
 
           {/* Quick Messages */}
           <div className="mt-4">
-            <p className="text-xs text-gray-600 mb-2">{t("whatsappModal.quickMessages")}</p>
+            <p className="text-xs text-gray-600 mb-2">{t("whatsappModal.quickMessagesLabel") || "Quick Messages"}</p>
             <div className="flex flex-wrap gap-2">
-              {[
-                t("whatsappModal.needQuote"),
-                t("whatsappModal.emergency"),
-                t("whatsappModal.schedule"),
-                t("whatsappModal.question"),
-              ].map((quickMsg) => (
+              {(typeof t("whatsappModal.quickMessages") === 'object' && t("whatsappModal.quickMessages") !== null
+                ? Object.values(t("whatsappModal.quickMessages"))
+                : []).map((quickMsg) => (
                 <button
                   key={quickMsg}
                   onClick={() => setMessage(quickMsg)}

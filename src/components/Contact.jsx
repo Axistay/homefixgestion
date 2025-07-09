@@ -35,15 +35,22 @@ function Contact({ onWhatsAppClick, onCallClick, onSocialMediaClick }) {
                 </div>
               </div>
 
+              {/* WhatsApp Button */}
               <div
-                className={`flex items-center space-x-6 p-6 bg-gradient-to-br from-gray-50 to-blue-50 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 gap-4`}
+                className={`flex items-center space-x-6 p-6 bg-gradient-to-br from-green-50 to-green-100 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 gap-4`}
               >
                 <div className="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center">
-                  <FaMapMarkerAlt className="text-green-600 text-2xl" />
+                  <FaWhatsapp className="text-green-600 text-2xl" />
                 </div>
                 <div className={isRTL ? "text-right" : "text-left"}>
-                  <div className="font-bold text-gray-800 text-xl">{t("contact.serviceArea")}</div>
-                  <div className="text-gray-600">{t("contact.metroSuburbs")}</div>
+                  <button
+                    onClick={() => onWhatsAppClick && onWhatsAppClick("Hello")}
+                    className="flex items-center space-x-2 bg-green-500 text-white px-6 py-3 rounded-xl hover:bg-green-600 transition-all duration-300 hover:scale-105 font-bold"
+                  >
+                    <FaWhatsapp className="text-xl" />
+                    <span>{t("footer.whatsappUs")}</span>
+                  </button>
+                  <div className="text-gray-600 mt-2">{t("contact.whatsappDesc")}</div>
                 </div>
               </div>
 

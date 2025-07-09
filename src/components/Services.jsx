@@ -26,7 +26,7 @@ import { useLanguage } from "../hooks/useLanguage.jsx"
 import { FaElevator } from "react-icons/fa6"
 import { useNavigate } from "react-router-dom"
 
-function Services({ onWhatsAppClick , number  }) {
+function Services({ onWhatsAppClick = () => {}, number }) {
   const [selectedService, setSelectedService] = useState(null)
   const { t, isRTL } = useLanguage()
   const navigate = useNavigate();
@@ -222,7 +222,8 @@ function Services({ onWhatsAppClick , number  }) {
                 <div className={`flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-3  gap-4 `}>
                   <button
                     onClick={(e) => {
-                      e.stopPropagation()
+                      e.stopPropagation();
+                      const message = `I need ${service.title} in Nador.`;
                       onWhatsAppClick(service.whatsappMessage)
                     }}
                     className={`flex items-center justify-center space-x-2 bg-gradient-to-r from-green-500 to-green-600 text-white px-3 sm:px-4 py-2.5 sm:py-3 rounded-lg sm:rounded-xl hover:from-green-600 hover:to-green-700 transition-all duration-300 flex-1 font-semibold shadow-md hover:shadow-lg transform hover:scale-105 text-sm sm:text-base  `}
