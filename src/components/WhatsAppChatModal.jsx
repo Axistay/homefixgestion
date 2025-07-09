@@ -101,7 +101,7 @@ function WhatsAppChatModal({ isOpen, onClose, onStartChat, customMessage = "Hi t
           {/* Powered by */}
           <div className="text-center mt-6 pt-4 border-t border-gray-100">
             <p className="text-xs text-gray-500">
-              © {t("whatsappModal.poweredBy")} <span className="text-blue-500 font-medium">RepairPro</span>
+              © {t("whatsappModal.poweredBy")} <span className="text-blue-500 font-medium">HomeFix Gestion</span>
             </p>
           </div>
         </div>

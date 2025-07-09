@@ -21,16 +21,16 @@ function Footer({ onWhatsAppClick, onSocialMediaClick }) {
         <div className={`grid grid-cols-1 md:grid-cols-3 gap-12 `}>
           {/* Company Info */}
           <div className={isRTL ? "text-right" : "text-left"}>
-          <Link to="/" className={`flex items-center space-x-2 sm:space-x-3 flex-shrink-0 `}  dir="ltr">
+          <Link to="/" className={`flex items-center space-x-2 sm:space-x-3 flex-shrink-0 mb-12 `}  dir="ltr">
             <div className="relative">
               <img 
                 src={logo}
                 alt="Homefix Gestion Logo" 
-                className="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 lg:h-16 lg:w-16 rounded-full object-cover shadow-md   transition-all duration-300 hover:scale-105" 
+                className="h-20 w-20 rounded-full object-cover shadow-md   transition-all duration-300 hover:scale-105" 
               />
             </div>
             <div className="flex flex-col">
-              <h1 className="jsm:text-lg xl:text-xl font-bold text-teal-600 leading-tight whitespace-nowrap">
+              <h1 className="text-xl font-bold text-teal-600 leading-tight whitespace-nowrap">
                 Homefix Gestion
               </h1>
               <span className="text-xs text-gray-600 font-medium hidden sm:block">
