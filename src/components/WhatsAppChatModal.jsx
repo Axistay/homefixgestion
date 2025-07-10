@@ -41,10 +41,12 @@ function WhatsAppChatModal({ isOpen, onClose, onStartChat,  }) {
           {/* Agent Info */}
           <div className="flex gap-2 items-center space-x-3 mb-4">
             <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
-              <FaUser className="text-green-600" />
+              {/* <FaUser className="text-green-600" /> */}
+              <img src="./logo.png" alt="" />
             </div>
             <div>
-              <h4 className="font-semibold text-gray-800">{t("whatsappModal.support")}</h4>
+              <h4 className="font-semibold text-gray-800">Homefix Gestion</h4>
+              {/* {t("whatsappModal.support")} */}
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-green-500 rounded-full"></div>
                 <span className="text-xs text-gray-600">{t("whatsappModal.onlineNow")}</span>

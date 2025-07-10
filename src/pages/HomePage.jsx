@@ -62,7 +62,10 @@ function HomePage({ onWhatsAppClick }) {
 
         <div>
           <Hero />
+          <div className="px-4">
           <Services number={3} onWhatsAppClick={onWhatsAppClick} />
+
+          </div>
           <Contact onWhatsAppClick={onWhatsAppClick} />
         </div>
       </React.Fragment>
