@@ -2,11 +2,15 @@
 import { FaPhone, FaWhatsapp, FaInstagram, FaFacebook, FaTiktok, FaMapMarkerAlt, FaClock } from "react-icons/fa"
 import { useLanguage } from "../hooks/useLanguage.jsx"
 
-function Contact({ onWhatsAppClick, onCallClick, onSocialMediaClick }) {
+function Contact({ onWhatsAppClick,  }) {
   const { t, isRTL } = useLanguage()
 
+  const onSocialMediaClick = (message) => {
+    window.open(message, "_blank")
+  }
+ 
   return (
-    <section id="contact" className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
+    <section id="contact" className="py-20 bg-gradient-to-t from-teal-300 to-teal-100">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className={`text-center mb-20  `}>
@@ -18,7 +22,7 @@ function Contact({ onWhatsAppClick, onCallClick, onSocialMediaClick }) {
           
 
           {/* Contact Information */}
-          <div className="bg-white rounded-3xl p-4 md:p-6 lg:p-10 shadow-2xl mb-16">
+          <div className="bg- rounded-3xl p-4 md:p-6 lg:p-10 shadow-2xl mb-16">
             <h3 className={`text-3xl font-bold text-gray-800 mb-10 text-center `}>
               {t("contact.contactInfo")}
             </h3>
@@ -29,8 +33,8 @@ function Contact({ onWhatsAppClick, onCallClick, onSocialMediaClick }) {
                 <div className="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center">
                   <FaPhone className="text-blue-600 text-2xl" />
                 </div>
-                <div className={isRTL ? "text-right" : "text-left"}>
-                  <div className="font-bold text-gray-800 text-xl">(123) 456-7890</div>
+                <div >
+                  <div dir="ltr" className="font-bold text-gray-800 text-xl">+212-618-269-179</div>
                   <div className="text-gray-600">{t("contact.emergency")}</div>
                 </div>
               </div>
@@ -69,7 +73,7 @@ function Contact({ onWhatsAppClick, onCallClick, onSocialMediaClick }) {
           </div>
 
           {/* Social Media */}
-          <div className="bg-white rounded-3xl p-4 md:p-6 lg:p-10 shadow-2xl">
+          <div className=" rounded-3xl p-4 md:p-6 lg:p-10 shadow-2xl">
             <h3 className={`text-3xl font-bold text-gray-800 mb-10 text-center  `}>
               {t("contact.followSocial")}
             </h3>
@@ -78,37 +82,34 @@ function Contact({ onWhatsAppClick, onCallClick, onSocialMediaClick }) {
               <div className="grid grid-cols-2 md:grid-cols-2 gap-2 md:gap-8">
                 {/* Instagram */}
                 <button
-                  onClick={() => onSocialMediaClick("instagram")}
+                  onClick={() => onSocialMediaClick("https://www.instagram.com/homefixgestion/")}
                   className="bg-gradient-to-br from-purple-500 to-pink-500 rounded-3xl p-2 lg:p-6 text-white text-center hover:scale-105 transition-all duration-300 shadow-xl group"
                 >
                   <FaInstagram size={60} className="mx-auto mb-6 group-hover:animate-pulse" />
                   <h4 className="text-2xl font-bold mb-4">Instagram</h4>
                   <p className="opacity-90 mb-2">{t("contact.beforeAfter")}</p>
-                  <div className="text-sm opacity-75">15.2K {t("contact.followers")}</div>
                 </button>
 
                 {/* Facebook */}
                 <button
-                  onClick={() => onSocialMediaClick("facebook")}
+                  onClick={() => onSocialMediaClick("https://www.facebook.com/HomeFixGestion/")}
                   className="bg-blue-600 rounded-3xl p-2 py-8 lg:p-6 text-white text-center hover:scale-105 transition-all duration-300 shadow-xl group"
                 >
                   <FaFacebook size={60} className="mx-auto mb-6 group-hover:animate-pulse" />
                   <h4 className="text-2xl font-bold mb-4">Facebook</h4>
                   <p className="opacity-90 mb-2">{t("contact.customerUpdates")}</p>
-                  <div className="text-sm opacity-75">8.7K {t("contact.likes")}</div>
                 </button>
               </div>
 
               {/* TikTok - Full width below */}
               <div className="grid grid-cols-1 md:grid-cols-1">
                 <button
-                  onClick={() => onSocialMediaClick("tiktok")}
+                  onClick={() => onSocialMediaClick("https://www.tiktok.com/search?q=homefixgesion&t=1752151176845")}
                   className="bg-black rounded-3xl p-8 text-white text-center hover:scale-105 transition-all duration-300 shadow-xl group"
                 >
                   <FaTiktok size={60} className="mx-auto mb-6 group-hover:animate-pulse" />
                   <h4 className="text-2xl font-bold mb-4">TikTok</h4>
                   <p className="opacity-90 mb-2">{t("contact.diyTips")}</p>
-                  <div className="text-sm opacity-75">23.1K {t("contact.followers")}</div>
                 </button>
               </div>
             </div>

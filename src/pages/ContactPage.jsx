@@ -8,12 +8,10 @@ function ContactPage({ onWhatsAppClick }) {
 
   return (
     <Layout>
-      <div className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
-        <div className="container mx-auto px-4">
+        <div className=" ">
          
           <Contact onWhatsAppClick={onWhatsAppClick} />
         </div>
-      </div>
     </Layout>
   )
 }

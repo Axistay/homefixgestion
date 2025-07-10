@@ -5,7 +5,6 @@ import { Link, useLocation } from "react-router-dom"
 import { FaTools, FaBars, FaTimes, FaWhatsapp, FaPhone } from "react-icons/fa"
 import { useLanguage } from "../hooks/useLanguage.jsx"
 import LanguageSwitcher from "./LanguageSwitcher.jsx"
-import logo from "../../public/logo.png" // 
 
 function Header({ onWhatsAppClick, onCallClick }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -24,20 +23,20 @@ function Header({ onWhatsAppClick, onCallClick }) {
   const isActive = (path) => location.pathname === path
 
   return (
-    <header className={`fixed right-0 left-0 top-0 z-50 transition-all duration-300 max-h-[70px] ${((scrolled || isMenuOpen ) || location.pathname !== '/') ? "bg-yellow-400 shadow-lg" : "bg-transparent"}`}>
+    <header className={`fixed right-0 left-0 top-0 z-50 transition-all duration-300 max-h-[70px] ${((scrolled || isMenuOpen ) || location.pathname !== '/') ? "bg-teal-400 shadow-lg" : "bg-transparent"}`}>
       <div className="container mx-auto px-3 sm:px-4 lg:px-6 h-full">
         <div className={`flex justify-between items-center h-full min-h-[70px] gap-2 sm:gap-4`}>
           {/* Logo */}
           <Link to="/" className={`flex items-center space-x-2 sm:space-x-3 flex-shrink-0 `}  dir="ltr">
             <div className="relative">
               <img 
-                src={logo}
+                src="/logo.png"
                 alt="Homefix Gestion Logo" 
                 className="h-12 w-12 sm:h-10 sm:w-10 md:h-12 md:w-12 lg:h-16 lg:w-16 rounded-full object-cover shadow-md   transition-all duration-300 hover:scale-105" 
               />
             </div>
             <div className="flex flex-col">
-              <h1 className="sm:text-2xl xl:text-xl font-bold text-teal-600 leading-tight whitespace-nowrap">
+              <h1 className=" font-bold text-[18px] md:text-[24px] l text-black leading-tight whitespace-nowrap">
                 Homefix Gestion
               </h1>
               <span className="text-xs text-gray-600 font-medium hidden sm:block">
@@ -90,14 +89,14 @@ function Header({ onWhatsAppClick, onCallClick }) {
               className={`flex items-center space-x-2 bg-blue-600 text-white px-3 py-2 xl:px-4 xl:py-2 rounded-lg hover:bg-blue-700 transition-all duration-300 hover:scale-105 text-xs xl:text-sm font-medium whitespace-nowrap shadow-md ${isRTL ? "space-x-reverse" : ""}`}
             >
               <FaPhone size={14} />
-              <span>Call Now</span>
+              <span>{t("services.callNow")} </span>
             </button>
             <button
               onClick={onWhatsAppClick}
               className={`flex items-center space-x-2 bg-green-500 text-white px-3 py-2 xl:px-4 xl:py-2 rounded-lg hover:bg-green-600 transition-all duration-300 hover:scale-105 text-xs xl:text-sm font-medium whitespace-nowrap shadow-md ${isRTL ? "space-x-reverse" : ""}`}
             >
               <FaWhatsapp size={14} />
-              <span>WhatsApp</span>
+              <span>{t("nav.whatsapp")} </span>
             </button>
           </div>
 
@@ -143,7 +142,7 @@ function Header({ onWhatsAppClick, onCallClick }) {
         {/* Mobile & Tablet Navigation */}
         <nav
           className={`lg:hidden overflow-hidden transition-all duration-300 ease-in-out ${
-            isMenuOpen ? "max-h-96 pb-4 border-t bg-yellow-500 border-yellow-500" : "max-h-0"
+            isMenuOpen ? "max-h-96 pb-4 border-t bg-teal-500 border-teal-500" : "max-h-0"
           }`}
         >
           <div className="flex flex-col space-y-3 pt-4 px-2">
@@ -194,7 +193,7 @@ function Header({ onWhatsAppClick, onCallClick }) {
                 className={`flex items-center justify-center space-x-2 bg-blue-600 text-white px-4 py-3 rounded-lg hover:bg-blue-700 transition-all duration-300 flex-1 text-sm font-medium shadow-md ${isRTL ? "space-x-reverse" : ""}`}
               >
                 <FaPhone size={16} />
-                <span>Call Now</span>
+                <span>{t("services.callNow")} </span>
               </button>
               <button
                 onClick={() => {
@@ -204,7 +203,7 @@ function Header({ onWhatsAppClick, onCallClick }) {
                 className={`flex items-center justify-center space-x-2 bg-green-500 text-white px-4 py-3 rounded-lg hover:bg-green-600 transition-all duration-300 flex-1 text-sm font-medium shadow-md ${isRTL ? "space-x-reverse" : ""}`}
               >
                 <FaWhatsapp size={16} />
-                <span>WhatsApp</span>
+                <span>{t("nav.whatsapp")}</span>
               </button>
             </div>
           </div>
@@ -215,3 +214,5 @@ function Header({ onWhatsAppClick, onCallClick }) {
 }
 
 export default Header
+
+// 244F76 9AD0C2 52859E EBF205

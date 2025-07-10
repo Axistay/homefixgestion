@@ -2,22 +2,49 @@ import Layout from "../components/Layout.jsx"
 import Hero from "../components/Hero.jsx"
 import Services from "../components/Services.jsx"
 import Contact from "../components/Contact.jsx"
+import { Helmet } from "react-helmet-async";
+import React from "react";
 
 function HomePage({ onWhatsAppClick }) {
   return (
-    <>
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-teal-300 to-blue-500">
-    <h1 className="text-2xl font-bold">Coming soon 😍😎</h1>
+    <Layout>
+      <React.Fragment>
+        <Helmet>
+          <script type="application/ld+json">{`
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Homefix Gestion",
+    "image": "https://homefixgestion.com/logo.png",
+    "url": "https://homefixgestion.com",
+    "telephone": "+212618269179",
+    "email": "info@homefixgestion.com",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "حي المطار، الناظور",
+      "addressLocality": "Nador",
+      "addressRegion": "Oriental",
+      "postalCode": "62000",
+      "addressCountry": "MA"
+    },
+    "openingHours": "Mo-Sa 09:00-18:00",
+    "description": "Homefix Gestion هي شركة مغربية متخصصة في خدمات التنظيف والصيانة وتسيير العمارات والاستقبال في مدينة الناظور. نقدم حلولاً احترافية للمباني السكنية والتجارية بأعلى جودة وبأسعار مناسبة. اتصل بنا لخدمة موثوقة وسريعة.",
+    "sameAs": [
+      "https://www.facebook.com/homefixgestion",
+      "https://www.instagram.com/homefixgestion"
+    ]
+  }
+  `}</script>
+        </Helmet>
 
-    </div>
-    </>
-    // <Layout>
-    //   <div>
-    //     <Hero />
-    //     <Services number={3} onWhatsAppClick={onWhatsAppClick} />
-    //     <Contact onWhatsAppClick={onWhatsAppClick} />
-    //   </div>
-    // </Layout>
+        <div>
+          <Hero />
+          <Services number={3} onWhatsAppClick={onWhatsAppClick} />
+          <Contact onWhatsAppClick={onWhatsAppClick} />
+        </div>
+      </React.Fragment>
+    </Layout>
   )
 }
 

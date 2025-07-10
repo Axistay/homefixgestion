@@ -41,7 +41,7 @@ function AboutPage() {
 
   return (
     <Layout>
-      <div className={`py-20 bg-white ${isRTL ? 'rtl' : 'ltr'}`} dir={isRTL ? 'rtl' : 'ltr'}>
+      <div className={`py-20 bg- ${isRTL ? 'rtl' : 'ltr'}`} dir={isRTL ? 'rtl' : 'ltr'}>
         <div className="container mx-auto px-4">
           {/* Header */}
           <div className="text-center mb-16">
@@ -54,7 +54,7 @@ function AboutPage() {
           </div>
 
           {/* Story Section */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20">
+          <div className=" mb-20">
             <div className={`${isRTL ? 'text-right' : 'text-left'}`}>
               <h2 className={`text-3xl font-bold text-gray-800 mb-6 ${isRTL ? 'font-arabic' : ''}`}>
                 {t("about.storyTitle")}
@@ -69,34 +69,7 @@ function AboutPage() {
                 {t("about.story3")}
               </p>
             </div>
-            <div className="bg-gradient-to-br from-blue-50 to-green-50 rounded-2xl p-8">
-              <div className="grid grid-cols-2 gap-6">
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">15+</div>
-                  <div className={`text-gray-600 ${isRTL ? 'font-arabic' : ''}`}>
-                    {t("about.stats.experience")}
-                  </div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-green-600 mb-2">5000+</div>
-                  <div className={`text-gray-600 ${isRTL ? 'font-arabic' : ''}`}>
-                    {t("about.stats.customers")}
-                  </div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-yellow-600 mb-2">15000+</div>
-                  <div className={`text-gray-600 ${isRTL ? 'font-arabic' : ''}`}>
-                    {t("about.stats.jobs")}
-                  </div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-purple-600 mb-2">4.9</div>
-                  <div className={`text-gray-600 ${isRTL ? 'font-arabic' : ''}`}>
-                    {t("about.stats.rating")}
-                  </div>
-                </div>
-              </div>
-            </div>
+          
           </div>
 
           {/* Features Grid */}
@@ -104,7 +77,7 @@ function AboutPage() {
             {features.map((feature, index) => (
               <div
                 key={index}
-                className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 text-center"
+                className="bg-gradient-to-tr from-teal-100 to-teal-400 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 text-center"
               >
                 <div className="flex justify-center mb-6">{feature.icon}</div>
                 <h3 className={`text-xl font-bold text-gray-800 mb-4 ${isRTL ? 'font-arabic' : ''}`}>
@@ -118,7 +91,7 @@ function AboutPage() {
           </div>
 
           {/* Mission Section */}
-          <div className="bg-gradient-to-br from-gray-50 to-blue-50 rounded-3xl p-12 text-center">
+          <div className="bg-gradient-to-br from-teal-200 to-yellow-200 rounded-3xl p-12 text-center">
             <h2 className={`text-3xl font-bold text-gray-800 mb-6 ${isRTL ? 'font-arabic' : ''}`}>
               {t("about.missionTitle")}
             </h2>

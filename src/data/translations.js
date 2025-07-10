@@ -195,25 +195,26 @@ export const translations = {
         "whatsapp": "I need cleaning for my residential complex"
       },
       "fullSyndicManagement": {
-        "title": "Complete Property Management",
-        "desc": "End-to-end building solutions",
+        "title": "Professional Building Management",
+        "desc": "Complete residential complex solutions in Nador",
         "features": [
-          "Full service coordination",
-          "Vendor management",
-          "Clear, all-inclusive pricing",
-          "Custom solutions per complex",
-          "Tangible results",
-          "Always available team"
+          "Daily cleaning of common areas (lobbies, staircases, elevators)",
+          "Preventive & corrective elevator maintenance",
+          "Waste management & common space sanitation",
+          "24/7 emergency repairs (plumbing, electrical, structural)",
+          "Vendor coordination (cleaning, security, utilities)",
+          "Monthly building condition reports with photo documentation"
         ],
-        "whatsapp": "I need management for my residential complex"
+        "whatsapp": "Need professional building management in Nador? Chat with our experts"
       },
       "whatsapp": "Chat Now",
-      "details": "What We Offer:",
+      "details": "What We Offer ?",
       "whatsIncluded": "Features:",
       "getQuote": "Get Pricing",
       "callNow": "Call Now",
       "startingFrom": "Prices start from",
       "emergencyRate": "Emergency Service",
+      "qualityProfessional": "Professional service with quality guarantee",
       "painting": {
         "title": "Painting Services"
       },
@@ -268,7 +269,7 @@ export const translations = {
       "subtitle": "Support team is ready to help",
       "support": "Customer Service",
       "onlineNow": "Online Now",
-      "defaultMessage": "Hello, how can we help?",
+      "defaultMessage": "Hello, how can we help? We are always at your service, contact us to learn more.",
       "placeholder": "Type your message here...",
       "startChat": "Send",
       "quickMessages": {
@@ -278,7 +279,6 @@ export const translations = {
         "question": "I have a question"
       },
       "poweredBy": "Serving Nador since",
-      "justNow": "Replying now"
     },
     "footer": {
       "description": "Your trusted cleaning and maintenance experts in Nador - high quality at fair prices",
@@ -294,34 +294,34 @@ export const translations = {
       story1: "Founded in 2024, Homefix Gestion is a new and dynamic company dedicated to serving the community with excellence and innovation. What started as a vision to provide exceptional home maintenance services has quickly become a trusted name in the industry.",
       story2: "Our team of skilled professionals is committed to providing high-quality workmanship and exceptional customer service. We understand that your home is your most valuable asset, and we treat it with the care and respect it deserves.",
       story3: "From minor repairs to major renovations, we handle every project with precision and attention to detail. Our goal is to exceed your expectations and ensure your complete satisfaction with every service we provide.",
-      
+
       stats: {
         experience: "Months Experience",
         customers: "Happy Customers",
         jobs: "Jobs Completed",
         rating: "Average Rating"
       },
-      
+
       features: {
         expert: "Expert Team",
         expertDesc: "Our skilled professionals have years of experience in all aspects of home maintenance and repair services.",
-        
+
         quality: "Quality Guaranteed",
         qualityDesc: "We stand behind our work with comprehensive warranties and guarantee the highest quality standards.",
-        
+
         equipment: "Modern Equipment",
         equipmentDesc: "We use the latest tools and equipment to ensure efficient and professional results for every project.",
-        
+
         care: "Customer Care",
         careDesc: "Your satisfaction is our priority. We provide personalized service and support throughout every project.",
-        
+
         insured: "Fully Insured",
         insuredDesc: "We are fully licensed and insured for your peace of mind and protection on every job.",
-        
+
         emergency: "Emergency Service",
         emergencyDesc: "Available 24/7 for urgent repairs and emergency situations when you need us most."
       },
-      
+
       missionTitle: "Our Mission",
       missionText: "To provide exceptional home maintenance and repair services that enhance the comfort, safety, and value of your home. We are committed to building lasting relationships with our clients through honest communication, reliable service, and superior craftsmanship."
     }
@@ -522,17 +522,17 @@ export const translations = {
         "whatsapp": "أحتاج خدمة تنظيف لمجمع سكني"
       },
       "fullSyndicManagement": {
-        "title": "إدارة كاملة للمجمعات",
-        "desc": "حلول متكاملة للإدارة العقارية",
+        "title": "خدمة السنديك المحترفة",
+        "desc": "حلول متكاملة لتدبير العمارات والصيانة",
         "features": [
-          "إدارة كافة الخدمات",
-          "تنسيق مع الموردين",
-          "أسعار شاملة وواضحة",
-          "خدمة مخصصة لكل مجمع",
-          "نتائج ملموسة",
-          "فريق متاح دائماً"
+          "التنظيف اليومي للمناطق المشتركة (البهو، السلالم، المصاعد)",
+          "الصيانة الدورية للمصاعد والكهرباء المشتركة",
+          "جمع النفايات وتدبير النظافة العامة",
+          "إصلاحات طارئة (سباكة، كهرباء، أضرار)",
+          "تنسيق مع الشركات المتخصصة (حراسة، أمن، نظافة)",
+          "تقارير شهرية عن حالة العمارة"
         ],
-        "whatsapp": "أبحث عن مدير لمجمعي السكني"
+        "whatsapp": "نخدم السنديك في الناظور - تواصل معنا الآن"
       },
       "whatsapp": "راسلنا الآن",
       "details": "ماذا نقدم لك؟",
@@ -541,6 +541,7 @@ export const translations = {
       "callNow": "اتصل فوراً",
       "startingFrom": "الأسعار تبدأ من",
       "emergencyRate": "خدمة الطوارئ",
+      "qualityProfessional": "خدمة احترافية مع ضمان الجودة",
       "painting": {
         "title": "خدمات الدهان"
       },
@@ -595,7 +596,7 @@ export const translations = {
       "subtitle": "فريق الدعم جاهز لمساعدتك",
       "support": "خدمة العملاء",
       "onlineNow": "متصل الآن",
-      "defaultMessage": "مرحباً، كيف يمكننا مساعدتك؟",
+      "defaultMessage": "مرحباً، كيف يمكننا مساعدتك؟ نحن في خدمتكم دائمًا، تواصلوا معنا لمعرفة المزيد",
       "placeholder": "اكتب رسالتك هنا...",
       "startChat": "إرسال",
       "quickMessages": {
@@ -605,7 +606,6 @@ export const translations = {
         "question": "لدي استفسار"
       },
       "poweredBy": "نخدم الناظور منذ",
-      "justNow": "يتم الرد الآن"
     },
     "footer": {
       "description": "شركتك المختصة في خدمات التنظيف والصيانة في الناظور - جودة عالية بأسعار مناسبة",
@@ -621,34 +621,34 @@ export const translations = {
       story1: "تأسست شركة Homefix Gestion في عام 2024، وهي شركة جديدة وديناميكية مكرسة لخدمة المجتمع بتميز وابتكار. ما بدأ كرؤية لتقديم خدمات صيانة منزلية استثنائية أصبح بسرعة اسمًا موثوقًا في الصناعة.",
       story2: "فريقنا من المهنيين المهرة ملتزم بتقديم أعمال عالية الجودة وخدمة عملاء استثنائية. نحن نفهم أن منزلك هو أثمن ممتلكاتك، ونتعامل معه بالعناية والاحترام الذي يستحقه.",
       story3: "من الإصلاحات الطفيفة إلى التجديدات الكبيرة، نتعامل مع كل مشروع بدقة وانتباه للتفاصيل. هدفنا هو تجاوز توقعاتك وضمان رضاك التام مع كل خدمة نقدمها.",
-      
+
       stats: {
         experience: "أشهر الخبرة",
         customers: "عملاء راضون",
         jobs: "أعمال مكتملة",
         rating: "متوسط التقييم"
       },
-      
+
       features: {
         expert: "فريق خبراء",
         expertDesc: "مهنيونا المهرة لديهم سنوات من الخبرة في جميع جوانب خدمات صيانة وإصلاح المنازل.",
-        
+
         quality: "جودة مضمونة",
         qualityDesc: "نحن نؤيد عملنا بضمانات شاملة ونضمن أعلى معايير الجودة.",
-        
+
         equipment: "معدات حديثة",
         equipmentDesc: "نستخدم أحدث الأدوات والمعدات لضمان نتائج فعالة ومهنية لكل مشروع.",
-        
+
         care: "رعاية العملاء",
         careDesc: "رضاك هو أولويتنا. نقدم خدمة شخصية ودعم طوال كل مشروع.",
-        
+
         insured: "مؤمن بالكامل",
         insuredDesc: "نحن مرخصون ومؤمنون بالكامل لراحة بالك وحمايتك في كل عمل.",
-        
+
         emergency: "خدمة الطوارئ",
         emergencyDesc: "متاح 24/7 للإصلاحات العاجلة وحالات الطوارئ عندما تحتاج إلينا أكثر."
       },
-      
+
       missionTitle: "مهمتنا",
       missionText: "تقديم خدمات استثنائية لصيانة وإصلاح المنازل التي تعزز من راحة وأمان وقيمة منزلك. نحن ملتزمون ببناء علاقات دائمة مع عملائنا من خلال التواصل الصادق والخدمة الموثوقة والحرفية المتفوقة."
     }
@@ -849,25 +849,26 @@ export const translations = {
         "whatsapp": "Je besoin de nettoyage pour ma résidence"
       },
       "fullSyndicManagement": {
-        "title": "Gestion Immobilière Complète",
-        "desc": "Solutions clés en main pour immeubles",
+        "title": "Service Syndic Professionnel",
+        "desc": "Gestion clé en main des copropriétés à Nador",
         "features": [
-          "Coordination complète des services",
-          "Gestion des prestataires",
-          "Tarification claire et globale",
-          "Solutions sur mesure",
-          "Résultats tangibles",
-          "Équipe toujours disponible"
+          "Nettoyage quotidien des parties communes (hall, escaliers, ascenseurs)",
+          "Maintenance préventive et curative des ascenseurs",
+          "Gestion des déchets et propreté des espaces communs",
+          "Interventions d'urgence (plomberie, électricité, réparations)",
+          "Coordination avec les prestataires (nettoyage, sécurité, gardiennage)",
+          "Bilan mensuel détaillé de l'état de l'immeuble"
         ],
-        "whatsapp": "Je besoin de gestion pour ma copropriété"
+        "whatsapp": "Service syndic à Nador - Contactez-nous maintenant"
       },
       "whatsapp": "Discuter Maintenant",
-      "details": "Ce Que Nous Offrons :",
+      "details": "Ce Que Nous Offrons ?",
       "whatsIncluded": "Avantages :",
       "getQuote": "Obtenir un Devis",
       "callNow": "Appeler Maintenant",
       "startingFrom": "Prix à partir de",
       "emergencyRate": "Service d'Urgence",
+      "qualityProfessional": "Service professionnel avec garantie de qualité",
       "painting": {
         "title": "Services de Peinture"
       },
@@ -922,7 +923,7 @@ export const translations = {
       "subtitle": "Notre équipe est prête à vous aider",
       "support": "Service Client",
       "onlineNow": "En Ligne Maintenant",
-      "defaultMessage": "Bonjour, comment pouvons-nous vous aider ?",
+      "defaultMessage": "Bonjour, comment pouvons-nous vous aider ? Nous sommes toujours à votre service, contactez-nous pour en savoir plus.",
       "placeholder": "Tapez votre message ici...",
       "startChat": "Envoyer",
       "quickMessages": {
@@ -932,7 +933,6 @@ export const translations = {
         "question": "J'ai une question"
       },
       "poweredBy": "Au service de Nador depuis",
-      "justNow": "En train de répondre"
     },
     "footer": {
       "description": "Vos experts en nettoyage et maintenance à Nador - qualité professionnelle à prix équitables",
@@ -948,34 +948,34 @@ export const translations = {
       story1: "Fondée en 2024, Homefix Gestion est une entreprise nouvelle et dynamique dédiée à servir la communauté avec excellence et innovation. Ce qui a commencé comme une vision de fournir des services d'entretien domiciliaire exceptionnels est rapidement devenu un nom de confiance dans l'industrie.",
       story2: "Notre équipe de professionnels qualifiés s'engage à fournir un travail de haute qualité et un service client exceptionnel. Nous comprenons que votre maison est votre bien le plus précieux, et nous la traitons avec le soin et le respect qu'elle mérite.",
       story3: "Des réparations mineures aux rénovations majeures, nous gérons chaque projet avec précision et attention aux détails. Notre objectif est de dépasser vos attentes et d'assurer votre satisfaction complète avec chaque service que nous fournissons.",
-      
+
       stats: {
         experience: "Mois d'Expérience",
         customers: "Clients Satisfaits",
         jobs: "Travaux Terminés",
         rating: "Note Moyenne"
       },
-      
+
       features: {
         expert: "Équipe Experte",
         expertDesc: "Nos professionnels qualifiés ont des années d'expérience dans tous les aspects des services d'entretien et de réparation domiciliaire.",
-        
+
         quality: "Qualité Garantie",
         qualityDesc: "Nous soutenons notre travail avec des garanties complètes et garantissons les normes de qualité les plus élevées.",
-        
+
         equipment: "Équipement Moderne",
         equipmentDesc: "Nous utilisons les outils et équipements les plus récents pour assurer des résultats efficaces et professionnels pour chaque projet.",
-        
+
         care: "Service Client",
         careDesc: "Votre satisfaction est notre priorité. Nous fournissons un service personnalisé et un support tout au long de chaque projet.",
-        
+
         insured: "Entièrement Assuré",
         insuredDesc: "Nous sommes entièrement licenciés et assurés pour votre tranquillité d'esprit et protection sur chaque travail.",
-        
+
         emergency: "Service d'Urgence",
         emergencyDesc: "Disponible 24h/24 et 7j/7 pour les réparations urgentes et situations d'urgence quand vous en avez le plus besoin."
       },
-      
+
       missionTitle: "Notre Mission",
       missionText: "Fournir des services exceptionnels d'entretien et de réparation domiciliaire qui améliorent le confort, la sécurité et la valeur de votre maison. Nous nous engageons à construire des relations durables avec nos clients grâce à une communication honnête, un service fiable et un savoir-faire supérieur."
     }
@@ -1176,25 +1176,26 @@ export const translations = {
         "whatsapp": "Necesito limpieza para mi residencia"
       },
       "fullSyndicManagement": {
-        "title": "Gestión Inmobiliaria Completa",
-        "desc": "Soluciones llave en mano para edificios",
+        "title": "Gestión Profesional de Comunidades",
+        "desc": "Servicios integrales para edificios en Nador",
         "features": [
-          "Coordinación completa de servicios",
-          "Gestión de proveedores",
-          "Precios claros y globales",
-          "Soluciones personalizadas",
-          "Resultados tangibles",
-          "Equipo siempre disponible"
+          "Limpieza diaria de áreas comunes (vestíbulo, escaleras, ascensores)",
+          "Mantenimiento preventivo y correctivo de ascensores",
+          "Gestión de residuos y limpieza de zonas comunes",
+          "Reparaciones urgentes (fontanería, electricidad, daños)",
+          "Coordinación con proveedores (limpieza, seguridad, conserjería)",
+          "Informes mensuales detallados del estado del edificio"
         ],
-        "whatsapp": "Necesito gestión para mi comunidad"
+        "whatsapp": "¿Necesita administrador para su edificio en Nador? Escríbanos"
       },
       "whatsapp": "Chatear Ahora",
-      "details": "Lo Que Ofrecemos:",
+      "details": "Lo Que Ofrecemos ?",
       "whatsIncluded": "Beneficios:",
       "getQuote": "Obtener Presupuesto",
       "callNow": "Llamar Ahora",
       "startingFrom": "Precios desde",
       "emergencyRate": "Servicio de Emergencia",
+      "qualityProfessional": "Servicio profesional con garantía de calidad",
       "painting": {
         "title": "Servicios de Pintura"
       },
@@ -1249,7 +1250,7 @@ export const translations = {
       "subtitle": "Nuestro equipo está listo para ayudarte",
       "support": "Servicio al Cliente",
       "onlineNow": "En Línea Ahora",
-      "defaultMessage": "Hola, ¿cómo podemos ayudarte?",
+      "defaultMessage": "Hola, ¿cómo podemos ayudarte? Siempre a tu disposición, contáctanos para saber más.",
       "placeholder": "Escribe tu mensaje aquí...",
       "startChat": "Enviar",
       "quickMessages": {
@@ -1259,7 +1260,6 @@ export const translations = {
         "question": "Tengo una pregunta"
       },
       "poweredBy": "Sirviendo a Nador desde",
-      "justNow": "Respondiendo ahora"
     },
     "footer": {
       "description": "Tus expertos en limpieza y mantenimiento en Nador - calidad profesional a precios justos",
@@ -1275,34 +1275,34 @@ export const translations = {
       story1: "Fundada en 2024, Homefix Gestion es una empresa nueva y dinámica dedicada a servir a la comunidad con excelencia e innovación. Lo que comenzó como una visión de proporcionar servicios excepcionales de mantenimiento del hogar se ha convertido rápidamente en un nombre de confianza en la industria.",
       story2: "Nuestro equipo de profesionales capacitados se compromete a proporcionar trabajo de alta calidad y servicio al cliente excepcional. Entendemos que tu hogar es tu activo más valioso, y lo tratamos con el cuidado y respeto que merece.",
       story3: "Desde reparaciones menores hasta renovaciones importantes, manejamos cada proyecto con precisión y atención al detalle. Nuestro objetivo es superar tus expectativas y asegurar tu completa satisfacción con cada servicio que proporcionamos.",
-      
+
       stats: {
         experience: "Meses de Experiencia",
         customers: "Clientes Satisfechos",
         jobs: "Trabajos Completados",
         rating: "Calificación Promedio"
       },
-      
+
       features: {
         expert: "Equipo Experto",
         expertDesc: "Nuestros profesionales capacitados tienen años de experiencia en todos los aspectos de servicios de mantenimiento y reparación del hogar.",
-        
+
         quality: "Calidad Garantizada",
         qualityDesc: "Respaldamos nuestro trabajo con garantías integrales y garantizamos los más altos estándares de calidad.",
-        
+
         equipment: "Equipo Moderno",
         equipmentDesc: "Utilizamos las herramientas y equipos más recientes para asegurar resultados eficientes y profesionales para cada proyecto.",
-        
+
         care: "Atención al Cliente",
         careDesc: "Tu satisfacción es nuestra prioridad. Proporcionamos servicio personalizado y soporte durante todo el proyecto.",
-        
+
         insured: "Completamente Asegurado",
         insuredDesc: "Estamos completamente licenciados y asegurados para tu tranquilidad y protección en cada trabajo.",
-        
+
         emergency: "Servicio de Emergencia",
         emergencyDesc: "Disponible 24/7 para reparaciones urgentes y situaciones de emergencia cuando más nos necesitas."
       },
-      
+
       missionTitle: "Nuestra Misión",
       missionText: "Proporcionar servicios excepcionales de mantenimiento y reparación del hogar que mejoren la comodidad, seguridad y valor de tu hogar. Estamos comprometidos a construir relaciones duraderas con nuestros clientes a través de comunicación honesta, servicio confiable y artesanía superior."
     }

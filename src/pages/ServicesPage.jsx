@@ -8,7 +8,7 @@ function ServicesPage({ onWhatsAppClick }) {
 
   return (
     <Layout>
-      <div className="py-10 bg-white">
+      <div className="py-10 ">
         <div className="container mx-auto px-4">
            
           <Services onWhatsAppClick={onWhatsAppClick} />
