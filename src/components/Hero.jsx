@@ -26,8 +26,8 @@ function Hero({ onWhatsAppClick, onCallClick }) {
       </div>
 
       <div className="container mx-auto px-4 relative z-10 mt-16 md:mt-36">
-        <div className="absolute top-[44vh] lg:top-[32vh] flex justify-center items-center w-full ">
-          <img src="/logo.png" alt="" className="  w-60 h-60  md:w-[25%]  lg:h-full " />
+        <div className="absolute top-[46vh] lg:top-[32vh] flex justify-center items-center w-full ">
+          <img src="/logo.png" alt="" className=" opacity-50 md:opacity-100  w-60 h-60  md:w-[25%]  lg:h-full " />
 
         </div>
         <div className={`text-center max-w-5xl mx-auto  `}>

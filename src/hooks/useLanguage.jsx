@@ -9,7 +9,7 @@ const LanguageContext = createContext(undefined)
 export function LanguageProvider({ children }) {
   const [language, setLanguage] = useState(() => {
     const savedLang = localStorage.getItem("language")
-    return (savedLang && Object.values(LANGUAGES).includes(savedLang)) ? savedLang : LANGUAGES.EN
+    return (savedLang && Object.values(LANGUAGES).includes(savedLang)) ? savedLang : LANGUAGES.FR
   })
 
   useEffect(() => {
