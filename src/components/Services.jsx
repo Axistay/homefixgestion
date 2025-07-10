@@ -356,7 +356,7 @@ function Services({ onWhatsAppClick = () => { }, number }) {
                   </button>
                   
                   <button
-                    onClick={() => window.open("tel:+1234567890", "_self")}
+                    onClick={() => window.open("tel:+212618269179", "_self")}
                     className={`flex items-center justify-center space-x-3 bg-gradient-to-r from-blue-600 via-blue-700 to-indigo-700 text-white px-4 sm:px-6 lg:px-8 py-3 sm:py-4 rounded-lg sm:rounded-xl hover:from-blue-700 hover:via-blue-800 hover:to-indigo-800 transition-all duration-300 hover:scale-105 hover:shadow-lg flex-1 font-bold shadow-md text-sm sm:text-base ${isRTL ? "space-x-reverse" : ""} relative overflow-hidden group`}
                   >
                     <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
