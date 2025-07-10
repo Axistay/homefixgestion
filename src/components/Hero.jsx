@@ -27,7 +27,7 @@ function Hero({ onWhatsAppClick, onCallClick }) {
 
       <div className="container mx-auto px-4 relative z-10 mt-16 md:mt-36">
         <div className="absolute top-[46vh] lg:top-[32vh] flex justify-center items-center w-full ">
-          <img src="/logo.png" alt="" className=" opacity-50 md:opacity-100  w-60 h-60  md:w-[25%]  lg:h-full " />
+          <img src="/logo.png" alt="" className=" opacity-30 md:opacity-100  w-60 h-60  md:w-[25%]  lg:h-full " />
 
         </div>
         <div className={`text-center max-w-5xl mx-auto  `}>
@@ -41,7 +41,7 @@ function Hero({ onWhatsAppClick, onCallClick }) {
           </div>
 
           <h1
-            className={`text-5xl md:text-7xl font-bold text-gray-800 mb-8 transform transition-all duration-1000 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
+            className={`text-5xl md:text-7xl font-bold text-gray-950 mb-8 transform transition-all duration-1000 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
               }`}
             style={{ transitionDelay: "200ms" }}
           >
@@ -53,7 +53,7 @@ function Hero({ onWhatsAppClick, onCallClick }) {
           </h1>
 
           <p
-            className={`text-2xl text-gray-600 mb-12 max-w-4xl mx-auto leading-relaxed transform transition-all duration-1000 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
+            className={`text-2xl text-gray-900 mb-12 max-w-4xl mx-auto leading-relaxed transform transition-all duration-1000 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
               }`}
             style={{ transitionDelay: "400ms" }}
           >
