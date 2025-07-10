@@ -34,7 +34,7 @@ function Contact({ onWhatsAppClick,  }) {
                   <FaPhone className="text-blue-600 text-2xl" />
                 </div>
                 <div >
-                  <div dir="ltr" className="font-bold text-gray-800 text-xl">+212-618-269-179</div>
+                  <div dir="ltr" className="font-bold text-gray-800 text-xl">+212 618 26 91 79</div>
                   <div className="text-gray-600">{t("contact.emergency")}</div>
                 </div>
               </div>

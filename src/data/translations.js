@@ -285,13 +285,13 @@ export const translations = {
       "ourServices": "Our Services",
       "contactUs": "Contact Us",
       "whatsappUs": "Chat on WhatsApp",
-      "rights": "© 2024 All Rights Reserved"
+      "rights": "© 2025 All Rights Reserved"
     },
     about: {
       title: "About",
       subtitle: "Your trusted partner for all home maintenance and repair needs. We bring professional expertise and reliable service to every project.",
       storyTitle: "Our Story",
-      story1: "Founded in 2024, Homefix Gestion is a new and dynamic company dedicated to serving the community with excellence and innovation. What started as a vision to provide exceptional home maintenance services has quickly become a trusted name in the industry.",
+      story1: "Founded in 2025, Homefix Gestion is a new and dynamic company dedicated to serving the community with excellence and innovation. What started as a vision to provide exceptional home maintenance services has quickly become a trusted name in the industry.",
       story2: "Our team of skilled professionals is committed to providing high-quality workmanship and exceptional customer service. We understand that your home is your most valuable asset, and we treat it with the care and respect it deserves.",
       story3: "From minor repairs to major renovations, we handle every project with precision and attention to detail. Our goal is to exceed your expectations and ensure your complete satisfaction with every service we provide.",
 
@@ -612,13 +612,13 @@ export const translations = {
       "ourServices": "خدماتنا",
       "contactUs": "تواصل معنا",
       "whatsappUs": "راسلنا على واتساب",
-      "rights": "© 2024 جميع الحقوق محفوظة"
+      "rights": "© 2025 جميع الحقوق محفوظة"
     },
     about: {
       title: "من نحن",
       subtitle: "شريكك الموثوق لجميع احتياجات صيانة وإصلاح المنزل. نحن نقدم الخبرة المهنية والخدمة الموثوقة لكل مشروع.",
       storyTitle: "قصتنا",
-      story1: "تأسست شركة Homefix Gestion في عام 2024، وهي شركة جديدة وديناميكية مكرسة لخدمة المجتمع بتميز وابتكار. ما بدأ كرؤية لتقديم خدمات صيانة منزلية استثنائية أصبح بسرعة اسمًا موثوقًا في الصناعة.",
+      story1: "تأسست شركة Homefix Gestion في عام 2025، وهي شركة جديدة وديناميكية مكرسة لخدمة المجتمع بتميز وابتكار. ما بدأ كرؤية لتقديم خدمات صيانة منزلية استثنائية أصبح بسرعة اسمًا موثوقًا في الصناعة.",
       story2: "فريقنا من المهنيين المهرة ملتزم بتقديم أعمال عالية الجودة وخدمة عملاء استثنائية. نحن نفهم أن منزلك هو أثمن ممتلكاتك، ونتعامل معه بالعناية والاحترام الذي يستحقه.",
       story3: "من الإصلاحات الطفيفة إلى التجديدات الكبيرة، نتعامل مع كل مشروع بدقة وانتباه للتفاصيل. هدفنا هو تجاوز توقعاتك وضمان رضاك التام مع كل خدمة نقدمها.",
 
@@ -939,13 +939,13 @@ export const translations = {
       "ourServices": "Nos Services",
       "contactUs": "Contactez-Nous",
       "whatsappUs": "Discuter sur WhatsApp",
-      "rights": "© 2024 Tous Droits Réservés"
+      "rights": "© 2025 Tous Droits Réservés"
     },
     about: {
       title: "À Propos",
       subtitle: "Votre partenaire de confiance pour tous vos besoins d'entretien et de réparation domiciliaire. Nous apportons une expertise professionnelle et un service fiable à chaque projet.",
       storyTitle: "Notre Histoire",
-      story1: "Fondée en 2024, Homefix Gestion est une entreprise nouvelle et dynamique dédiée à servir la communauté avec excellence et innovation. Ce qui a commencé comme une vision de fournir des services d'entretien domiciliaire exceptionnels est rapidement devenu un nom de confiance dans l'industrie.",
+      story1: "Fondée en 2025, Homefix Gestion est une entreprise nouvelle et dynamique dédiée à servir la communauté avec excellence et innovation. Ce qui a commencé comme une vision de fournir des services d'entretien domiciliaire exceptionnels est rapidement devenu un nom de confiance dans l'industrie.",
       story2: "Notre équipe de professionnels qualifiés s'engage à fournir un travail de haute qualité et un service client exceptionnel. Nous comprenons que votre maison est votre bien le plus précieux, et nous la traitons avec le soin et le respect qu'elle mérite.",
       story3: "Des réparations mineures aux rénovations majeures, nous gérons chaque projet avec précision et attention aux détails. Notre objectif est de dépasser vos attentes et d'assurer votre satisfaction complète avec chaque service que nous fournissons.",
 
@@ -1266,13 +1266,13 @@ export const translations = {
       "ourServices": "Nuestros Servicios",
       "contactUs": "Contáctanos",
       "whatsappUs": "Chatear por WhatsApp",
-      "rights": "© 2024 Todos los Derechos Reservados"
+      "rights": "© 2025 Todos los Derechos Reservados"
     },
     about: {
       title: "Acerca de",
       subtitle: "Tu socio de confianza para todas las necesidades de mantenimiento y reparación del hogar. Aportamos experiencia profesional y servicio confiable a cada proyecto.",
       storyTitle: "Nuestra Historia",
-      story1: "Fundada en 2024, Homefix Gestion es una empresa nueva y dinámica dedicada a servir a la comunidad con excelencia e innovación. Lo que comenzó como una visión de proporcionar servicios excepcionales de mantenimiento del hogar se ha convertido rápidamente en un nombre de confianza en la industria.",
+      story1: "Fundada en 2025, Homefix Gestion es una empresa nueva y dinámica dedicada a servir a la comunidad con excelencia e innovación. Lo que comenzó como una visión de proporcionar servicios excepcionales de mantenimiento del hogar se ha convertido rápidamente en un nombre de confianza en la industria.",
       story2: "Nuestro equipo de profesionales capacitados se compromete a proporcionar trabajo de alta calidad y servicio al cliente excepcional. Entendemos que tu hogar es tu activo más valioso, y lo tratamos con el cuidado y respeto que merece.",
       story3: "Desde reparaciones menores hasta renovaciones importantes, manejamos cada proyecto con precisión y atención al detalle. Nuestro objetivo es superar tus expectativas y asegurar tu completa satisfacción con cada servicio que proporcionamos.",
 

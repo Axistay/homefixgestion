@@ -86,7 +86,7 @@ function WhatsAppChatModal({ isOpen, onClose, onStartChat,  }) {
           {/* Powered by */}
           <div className="text-center mt-6 pt-4 border-t border-gray-100">
             <p className="text-xs text-gray-500">
-              © {t("whatsappModal.poweredBy")} <span className="text-blue-500 font-medium">2024</span>
+              © {t("whatsappModal.poweredBy")} <span className="text-blue-500 font-medium">2025</span>
             </p>
           </div>
         </div>

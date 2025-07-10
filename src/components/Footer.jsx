@@ -76,7 +76,7 @@ function Footer({ onWhatsAppClick }) {
                 className={`flex gap-2 items-center space-x-3 hover:text-blue-400 transition-colors duration-300  `}
               >
                 <FaPhone className="text-blue-400 text-xl" />
-                <span dir="ltr" className="text-gray-300 text-lg">(+212-618-269-179)</span>
+                <span dir="ltr" className="text-gray-300 text-lg">(+212 618 26 91 79)</span>
               </div>
               <button
                 onClick={onWhatsAppClick}
