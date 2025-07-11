@@ -25,6 +25,7 @@ import {
 import { useLanguage } from "../hooks/useLanguage.jsx"
 import { FaElevator } from "react-icons/fa6"
 import { useNavigate } from "react-router-dom"
+import Button from "./btnShowAll.jsx"
 
 function Services({ onWhatsAppClick = () => { }, number }) {
   const [selectedService, setSelectedService] = useState(null)
@@ -98,7 +99,7 @@ function Services({ onWhatsAppClick = () => { }, number }) {
       rating: 4.8,
       whatsappMessage: t("services.supermarketCleaning.whatsapp"),
     },
-    
+
     {
       id: "fullSyndicManagement",
       img: 'https://casafacilities.ma/wp-content/uploads/2024/11/1634217402.jpeg',
@@ -121,7 +122,7 @@ function Services({ onWhatsAppClick = () => { }, number }) {
       rating: 4.9,
       whatsappMessage: t("services.elevatorMaintenance.whatsapp"),
     },
-    
+
     {
       id: "electricalMaintenance",
       img: "https://images.unsplash.com/photo-1621905251918-48416bd8575a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80",
@@ -166,7 +167,7 @@ function Services({ onWhatsAppClick = () => { }, number }) {
     //   rating: 5.0,
     //   whatsappMessage: t("services.corporateServices.whatsapp"),
     // },
-    
+
   ]
 
   return (
@@ -223,19 +224,19 @@ function Services({ onWhatsAppClick = () => { }, number }) {
 
                 {/* Action Buttons */}
                 <div className={`flex justify-end md:justify-between   space-y-2 sm:space-y-0 sm:space-x-3  gap-4 `}>
-                 <div className="hidden md:block w-1/2   ">
-                 <button
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      const message = `I need ${service.title} in Nador.`;
-                      onWhatsAppClick(service.whatsappMessage)
-                    }}
-                    className={`flex gap-2 w-full items-center justify-center space-x-2 bg-gradient-to-r from-green-500 to-green-600 text-white px-3 sm:px-4 py-2 sm:py-3 rounded-lg sm:rounded-xl hover:from-green-600 hover:to-green-700 transition-all duration-300 flex-1 font-semibold shadow-md hover:shadow-lg transform hover:scale-105 text-sm sm:text-base  `}
-                  >
-                    <FaWhatsapp size={14} className="sm:w-4 sm:h-4" />
-                    <span>{t("services.whatsapp")}</span>
-                  </button>
-                 </div>
+                  <div className="hidden md:block w-1/2   ">
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        const message = `I need ${service.title} in Nador.`;
+                        onWhatsAppClick(service.whatsappMessage)
+                      }}
+                      className={`flex gap-2 w-full items-center justify-center space-x-2 bg-gradient-to-r from-green-500 to-green-600 text-white px-3 sm:px-4 py-2 sm:py-3 rounded-lg sm:rounded-xl hover:from-green-600 hover:to-green-700 transition-all duration-300 flex-1 font-semibold shadow-md hover:shadow-lg transform hover:scale-105 text-sm sm:text-base  `}
+                    >
+                      <FaWhatsapp size={14} className="sm:w-4 sm:h-4" />
+                      <span>{t("services.whatsapp")}</span>
+                    </button>
+                  </div>
                   <button
                     onClick={(e) => {
                       e.stopPropagation()
@@ -256,19 +257,23 @@ function Services({ onWhatsAppClick = () => { }, number }) {
 
         {/* Show All Button */}
         {typeof number === 'number' && number !== null && (
-          <div className="text-center mt-8 sm:mt-12 lg:mt-16">
-            <button
-              onClick={() => navigate('/services')}
-              className="bg-gradient-to-r from-teal-400 to-yellow-400 text-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg sm:rounded-xl font-bold shadow-lg hover:from-yellow-400 hover:to-teal-400 transition-all duration-300 text-base sm:text-lg"
-            >
-              {t("services.showall")}
-            </button>
+          // <div className="text-center mt-8 sm:mt-12 lg:mt-16">
+          //   <button
+          //     onClick={() => navigate('/services')}
+          //     className="bg-gradient-to-r from-teal-400 to-yellow-400 text-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg sm:rounded-xl font-bold shadow-lg hover:from-yellow-400 hover:to-teal-400 transition-all duration-300 text-base sm:text-lg"
+          //   >
+          //     {t("services.showall")}
+          //   </button>
+          // </div>
+          <div className="mt-8">
+            <Button message={t("services.showall")}  />
+
           </div>
         )}
       </div>
 
-   {/* Service Detail Modal */}
-   {selectedService !== null && (
+      {/* Service Detail Modal */}
+      {selectedService !== null && (
         <div className="fixed inset-0 bg-black/70 backdrop-blur-md z-50 flex items-center justify-center p-2 sm:p-4 animate-in fade-in duration-300">
           <div className={`bg-gradient-to-br from-white via-gray-50 to-white rounded-2xl sm:rounded-3xl max-w-sm sm:max-w-2xl lg:max-w-4xl w-full max-h-[95vh] sm:max-h-[90vh] overflow-y-auto shadow-2xl border border-gray-200/50 animate-in zoom-in-95 duration-300 backdrop-blur-sm scrollbar-hide`}>
 
@@ -340,13 +345,13 @@ function Services({ onWhatsAppClick = () => { }, number }) {
                 {/* Decorative elements */}
                 <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-blue-200/30 to-indigo-200/30 rounded-full -translate-y-16 translate-x-16 blur-2xl"></div>
                 <div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-br from-purple-200/30 to-pink-200/30 rounded-full translate-y-12 -translate-x-12 blur-2xl"></div>
-                
+
                 <div className={`text-center mb-4 sm:mb-6 ${isRTL ? "rtl" : ""} relative z-10`}>
                   <p className="text-gray-600 text-sm sm:text-base lg:text-lg font-medium">
                     {t("services.qualityProfessional")}
                   </p>
                 </div>
-                
+
                 <div className={`flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4 ${isRTL ? "sm:space-x-reverse" : ""} relative z-10`}>
                   <button
                     onClick={() => onWhatsAppClick(services[selectedService].whatsappMessage)}
@@ -356,7 +361,7 @@ function Services({ onWhatsAppClick = () => { }, number }) {
                     <FaWhatsapp size={20} className="sm:w-6 sm:h-6 relative z-10" />
                     <span className="relative z-10">{t("services.getQuote")}</span>
                   </button>
-                  
+
                   <button
                     onClick={() => window.open("tel:+212618269179", "_self")}
                     className={`flex items-center justify-center space-x-3 bg-gradient-to-r from-blue-600 via-blue-700 to-indigo-700 text-white px-4 sm:px-6 lg:px-8 py-3 sm:py-4 rounded-lg sm:rounded-xl hover:from-blue-700 hover:via-blue-800 hover:to-indigo-800 transition-all duration-300 hover:scale-105 hover:shadow-lg flex-1 font-bold shadow-md text-sm sm:text-base ${isRTL ? "space-x-reverse" : ""} relative overflow-hidden group`}
