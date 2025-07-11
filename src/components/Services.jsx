@@ -222,18 +222,20 @@ function Services({ onWhatsAppClick = () => { }, number }) {
                 </p>
 
                 {/* Action Buttons */}
-                <div className={`flex   space-y-2 sm:space-y-0 sm:space-x-3  gap-4 `}>
-                  <button
+                <div className={`flex justify-end md:justify-between   space-y-2 sm:space-y-0 sm:space-x-3  gap-4 `}>
+                 <div className="hidden md:block w-1/2   ">
+                 <button
                     onClick={(e) => {
                       e.stopPropagation();
                       const message = `I need ${service.title} in Nador.`;
                       onWhatsAppClick(service.whatsappMessage)
                     }}
-                    className={`flex hidden md:block  gap-2 items-center justify-center space-x-2 bg-gradient-to-r from-green-500 to-green-600 text-white px-3 sm:px-4 py-2 sm:py-3 rounded-lg sm:rounded-xl hover:from-green-600 hover:to-green-700 transition-all duration-300 flex-1 font-semibold shadow-md hover:shadow-lg transform hover:scale-105 text-sm sm:text-base  `}
+                    className={`flex gap-2 w-full items-center justify-center space-x-2 bg-gradient-to-r from-green-500 to-green-600 text-white px-3 sm:px-4 py-2 sm:py-3 rounded-lg sm:rounded-xl hover:from-green-600 hover:to-green-700 transition-all duration-300 flex-1 font-semibold shadow-md hover:shadow-lg transform hover:scale-105 text-sm sm:text-base  `}
                   >
                     <FaWhatsapp size={14} className="sm:w-4 sm:h-4" />
                     <span>{t("services.whatsapp")}</span>
                   </button>
+                 </div>
                   <button
                     onClick={(e) => {
                       e.stopPropagation()
