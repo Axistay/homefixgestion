@@ -55,7 +55,7 @@ function Footer({ onWhatsAppClick }) {
                 <FaFacebook size={28} />
               </button>
               <button
-                onClick={() => onSocialMediaClick("https://www.tiktok.com/search?q=homefixgestion&t=1752156258010")}
+                onClick={() => onSocialMediaClick("https://www.tiktok.com/@homefix.gestion")}
                 className="text-gray-300 hover:text-white transition-all duration-300 hover:scale-125"
               >
                 <FaTiktok size={28} />

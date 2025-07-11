@@ -104,7 +104,7 @@ function Contact({ onWhatsAppClick,  }) {
               {/* TikTok - Full width below */}
               <div className="grid grid-cols-1 md:grid-cols-1">
                 <button
-                  onClick={() => onSocialMediaClick("https://www.tiktok.com/search?q=homefixgesion&t=1752151176845")}
+                  onClick={() => onSocialMediaClick("https://www.tiktok.com/@homefix.gestion")}
                   className="bg-black rounded-3xl p-8 text-white text-center hover:scale-105 transition-all duration-300 shadow-xl group"
                 >
                   <FaTiktok size={60} className="mx-auto mb-6 group-hover:animate-pulse" />
