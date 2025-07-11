@@ -4,6 +4,7 @@ import Services from "../components/Services.jsx";
 import Contact from "../components/Contact.jsx";
 import { Helmet } from "react-helmet-async";
 import React from "react";
+import LocationComponent from "../components/Locaion.jsx";
 
 function HomePage({ onWhatsAppClick }) {
   return (
@@ -63,11 +64,12 @@ function HomePage({ onWhatsAppClick }) {
         <div>
           <Hero />
           <div className="px-4">
-          <Services number={3} onWhatsAppClick={onWhatsAppClick} />
+            <Services number={3} onWhatsAppClick={onWhatsAppClick} />
 
           </div>
           <Contact onWhatsAppClick={onWhatsAppClick} />
         </div>
+         <LocationComponent />
       </React.Fragment>
     </Layout>
   );

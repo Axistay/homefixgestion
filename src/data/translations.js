@@ -589,7 +589,8 @@ export const translations = {
       "customerUpdates": "آراء عملائنا",
       "diyTips": "نصائح مفيدة",
       "followers": "متابعين",
-      "likes": "معجبين"
+      "likes": "معجبين",
+      "desmaps": "اضغط على الأزرار أعلاه للتفاعل مع الخريطة أو الحصول على الاتجاهات",
     },
     "whatsappModal": {
       "title": "محادثة مباشرة",
@@ -916,7 +917,8 @@ export const translations = {
       "customerUpdates": "Avis Clients",
       "diyTips": "Conseils Utiles",
       "followers": "Abonnés",
-      "likes": "J'aimes"
+      "likes": "J'aimes",
+      "desmaps": "Cliquez sur les boutons ci-dessus pour interagir avec la carte ou obtenir des directions",
     },
     "whatsappModal": {
       "title": "Discussion en Direct",
@@ -1243,7 +1245,8 @@ export const translations = {
       "customerUpdates": "Opiniones de Clientes",
       "diyTips": "Consejos Útiles",
       "followers": "Seguidores",
-      "likes": "Me gustas"
+      "likes": "Me gustas",
+      "desmaps": "Haz clic en los botones de arriba para interactuar con el mapa o obtener direcciones",
     },
     "whatsappModal": {
       "title": "Chat en Directo",
