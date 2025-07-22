@@ -37,7 +37,7 @@ function Hero({ onWhatsAppClick, onCallClick }) {
               } ${isRTL ? "space-x-reverse" : ""}`}
           >
             <FaClock className="animate-spin text-xl" />
-            <span className="font-semibold text-xl">{t("hero.emergency")}</span>
+            <span className="font-semibold text:lg md:text-xl ">{t("hero.emergency")}</span>
           </div>
 
           <h1

@@ -6,7 +6,7 @@ import { FaGlobe, FaChevronDown } from "react-icons/fa"
 import { useState } from "react"
 
 function LanguageSwitcher() {
-  const { language, setLanguage } = useLanguage()
+  const { language, setLanguage, isRTL } = useLanguage()
   const [open, setOpen] = useState(false)
   
   const languages = [
@@ -43,7 +43,7 @@ function LanguageSwitcher() {
   return (
     <div className="relative group">
       <button
-        className="flex items-center space-x-2 px-4 py-2 rounded-lg bg-white shadow-xl border border-gray-300 hover:bg-gray-50 hover:border-blue-400 transition-all duration-200  hover:shadow-md "
+        className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white shadow-xl border border-gray-300 hover:bg-gray-50 hover:border-blue-400 transition-all duration-200  hover:shadow-md "
         onClick={() => setOpen((prev) => !prev)}
         type="button"
       >
@@ -60,7 +60,7 @@ function LanguageSwitcher() {
       </button>
       
       <div
-        className={`absolute top-full right-0 mt-2 bg-white rounded-lg shadow-xl border border-gray-200 py-2 min-w-[160px] z-50 transition-all duration-300 transform ${open ? "opacity-100 visible translate-y-0" : "opacity-0 invisible translate-y-2"}`}
+        className={`absolute top-full ${isRTL ? 'left-0' : 'right-0'} mt-2 bg-white rounded-lg shadow-xl border border-gray-200 py-2 min-w-[160px] z-50 transition-all duration-300 transform ${open ? "opacity-100 visible translate-y-0" : "opacity-0 invisible translate-y-2"}`}
         onMouseLeave={() => setOpen(false)}
       >
         {languages.map((lang) => (
