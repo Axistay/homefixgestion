@@ -24,7 +24,7 @@ function Header({ onWhatsAppClick, onCallClick }) {
 
   return (
     <header className={`fixed right-0 left-0 top-0 z-50 transition-all duration-300 max-h-[70px] ${((scrolled || isMenuOpen ) || location.pathname !== '/') ? "bg-teal-400 shadow-lg" : "bg-transparent"}`}>
-      <div className="container mx-auto px-3 sm:px-4 lg:px-6 h-full">
+      <div className="container mx-auto px-3 sm:px-4 lg:px-6 h-full ">
         <div className={`flex justify-between items-center h-full min-h-[70px] gap-2 sm:gap-4`}>
           {/* Logo */}
           <Link to="/" className={`flex items-center space-x-2 sm:space-x-3 flex-shrink-0 `}  dir="ltr">
@@ -89,14 +89,14 @@ function Header({ onWhatsAppClick, onCallClick }) {
               className={`flex items-center space-x-2 bg-blue-600 text-white px-3 py-2 xl:px-4 xl:py-2 rounded-lg hover:bg-blue-700 transition-all duration-300 hover:scale-105 text-xs xl:text-sm font-medium whitespace-nowrap shadow-md ${isRTL ? "space-x-reverse" : ""}`}
             >
               <FaPhone size={14} />
-              <span>{t("services.callNow")} </span>
+              <span className="hidden xl:block ">{t("services.callNow")} </span>
             </button>
             <button
               onClick={onWhatsAppClick}
               className={`flex items-center space-x-2 bg-green-500 text-white px-3 py-2 xl:px-4 xl:py-2 rounded-lg hover:bg-green-600 transition-all duration-300 hover:scale-105 text-xs xl:text-sm font-medium whitespace-nowrap shadow-md ${isRTL ? "space-x-reverse" : ""}`}
             >
               <FaWhatsapp size={14} />
-              <span>{t("nav.whatsapp")} </span>
+              <span className="hidden xl:block ">{t("nav.whatsapp")} </span>
             </button>
           </div>
 
@@ -127,7 +127,7 @@ function Header({ onWhatsAppClick, onCallClick }) {
           </div>
 
           {/* Mobile Menu Button - Visible on small screens only */}
-          <div className={`md:hidden flex items-center space-x-2 flex-shrink-0 ${isRTL ? "space-x-reverse" : ""}`}>
+          <div className={`md:hidden flex items-center  space-x-2 flex-shrink-0 ${isRTL ? "space-x-reverse" : ""}`}>
             <LanguageSwitcher />
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}

@@ -43,7 +43,7 @@ function LanguageSwitcher() {
   return (
     <div className="relative group">
       <button
-        className="flex items-center space-x-2 px-4 py-2 rounded-lg bg-white shadow-xl border border-gray-300 hover:bg-gray-50 hover:border-blue-400 transition-all duration-200  hover:shadow-md min-w-[140px]"
+        className="flex items-center space-x-2 px-4 py-2 rounded-lg bg-white shadow-xl border border-gray-300 hover:bg-gray-50 hover:border-blue-400 transition-all duration-200  hover:shadow-md "
         onClick={() => setOpen((prev) => !prev)}
         type="button"
       >
@@ -52,7 +52,7 @@ function LanguageSwitcher() {
           alt={currentLanguage?.flagAlt}
           className="w-5 h-auto rounded-sm border border-gray-200"
         />
-        <span className="text-sm font-medium text-gray-700 flex-1">{currentLanguage?.name}</span>
+        <span className="text-sm font-medium text-gray-700 flex-1 hidden md:block">{currentLanguage?.name}</span>
         <FaChevronDown 
           className={`text-gray-400 transition-transform duration-200 ${open ? "rotate-180" : ""}`} 
           size={12} 
@@ -82,7 +82,7 @@ function LanguageSwitcher() {
               className="w-6 h-auto rounded-sm border border-gray-200"
             />
             <div className="flex-1">
-              <span className="text-sm font-medium block whitespace-nowrap">{lang.name}</span>
+              <span className="text-sm font-medium block whitespace-nowrap ">{lang.name}</span>
               <span className="text-xs text-gray-500">{lang.code}</span>
             </div>
             {language === lang.code && (
